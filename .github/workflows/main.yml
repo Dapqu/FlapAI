@@ -10,7 +10,7 @@ jobs:
       fail-fast: false
       matrix:
         projectPath:
-          - FlapAI
+          - C:\Users\Dapqu\Documents\GitHub\FlapAI\
         testMode:
           - playmode
           - editmode
