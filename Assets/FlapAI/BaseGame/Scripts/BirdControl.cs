@@ -14,6 +14,8 @@ public class Player : MonoBehaviour
 
     public float strength = 5f;
 
+    public float floating_degrees = 0f;
+
     private void Awake() {
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
@@ -35,12 +37,21 @@ public class Player : MonoBehaviour
                 direction = Vector3.up * strength;
         }
 
-        direction.y += gravity * Time.deltaTime;
-        transform.position += direction * Time.deltaTime;
+        if (state == GameManager.States.EnterGame)
+        {
+            transform.position = new Vector2(-1.2f, 0f) + (Vector2.up * 0.12f * Mathf.Sin(floating_degrees * Mathf.PI / 180f));
+            floating_degrees = (floating_degrees + 180f * Time.deltaTime) % 360f;
+        }
+        else
+        {
+            direction.y += gravity * Time.deltaTime;
+            transform.position += direction * Time.deltaTime;
 
-        Vector3 rotation = transform.eulerAngles;
-        rotation.z = direction.y * tilt;
-        transform.eulerAngles = rotation;
+            Vector3 rotation = transform.eulerAngles;
+            rotation.z = direction.y * tilt;
+            transform.eulerAngles = rotation;
+        }
+
     }
 
     private void AnimateSprite() {

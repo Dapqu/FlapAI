@@ -43,6 +43,7 @@ public class GameManager : MonoBehaviour
    public void EnterGame()
    {
       State = States.ActiveGame;
+      GameUI.instance.EnterGame();
    }
 
    public void GameOver() 

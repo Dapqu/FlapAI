@@ -13,6 +13,7 @@ public class GameUI : MonoBehaviour
     [SerializeField] TextMeshProUGUI gameOverScoreText;
     [SerializeField] TextMeshProUGUI gameOverHighScoreText;
     [SerializeField] Button okButton;
+    [SerializeField] Canvas tutorialScreen;
 
     private void Awake()
     {
@@ -38,6 +39,16 @@ public class GameUI : MonoBehaviour
         gameOverScoreText.text = GameManager.instance.Score.ToString();
         gameOverHighScoreText.text = GameManager.instance.Highscore.ToString();
     }
+
+    public void EnterGame()
+    {
+        CanvasGroup scoreTextGroup = scoreText.GetComponent<CanvasGroup>();
+        scoreTextGroup.alpha = 1f;
+
+        CanvasGroup tutorialGroup = tutorialScreen.GetComponent<CanvasGroup>();
+        tutorialGroup.alpha = 0f;
+    }
+    
 
     public void okPressed()
     {
