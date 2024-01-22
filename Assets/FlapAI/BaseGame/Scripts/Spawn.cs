@@ -18,7 +18,10 @@ public class Spawn : MonoBehaviour
     }
 
     private void Spn() {
-        GameObject pipes = Instantiate(prefab,transform.position, Quaternion.identity);
-        pipes.transform.position += Vector3.up * Random.Range(minHeight,maxHeight);
+        if (GameManager.instance.State == GameManager.States.ActiveGame)
+        {
+            GameObject pipes = Instantiate(prefab,transform.position, Quaternion.identity);
+            pipes.transform.position += Vector3.up * Random.Range(minHeight,maxHeight);
+        }
     }
 }

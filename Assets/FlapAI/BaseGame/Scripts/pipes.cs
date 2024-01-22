@@ -14,7 +14,8 @@ public class pipes : MonoBehaviour
 
     private void Update()
     {
-        transform.position += Vector3.left * speed * Time.deltaTime;
+        if (GameManager.instance.State != GameManager.States.GameOver)
+            transform.position += Vector3.left * speed * Time.deltaTime;
     
         if(transform.position.x < leftEdge) {
             Destroy(gameObject);

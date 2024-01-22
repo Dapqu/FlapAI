@@ -14,7 +14,10 @@ public class background : MonoBehaviour
     }
 
     private void Update() 
-    {
-        meshRenderer.material.mainTextureOffset += new Vector2(animationSpeed * Time.deltaTime, 0);
+    {   
+        if (GameManager.instance.State != GameManager.States.GameOver)
+        {
+            meshRenderer.material.mainTextureOffset += new Vector2(animationSpeed * Time.deltaTime, 0);
+        }
     }
 }
