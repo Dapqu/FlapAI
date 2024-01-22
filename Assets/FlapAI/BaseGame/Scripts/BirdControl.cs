@@ -5,10 +5,11 @@ public class Player : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     public Sprite[] sprites;
 
+    public Rigidbody2D birdRigidbody;
+
     public float tilt = 5f;
 
     private int spriteIndex;
-    private Vector3 direction;
 
     public float gravity = -9.8f;
 
@@ -21,37 +22,47 @@ public class Player : MonoBehaviour
     }
 
     private void Start() {
-        InvokeRepeating(nameof(AnimateSprite), 0.15f, 0.15f);
+        InvokeRepeating(nameof(AnimateSprite), 0.1f, 0.1f);
     }
 
     private void Update()
     {
         GameManager.States state = GameManager.instance.State;
 
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) {
+        if (Input.GetMouseButtonDown(0)) {
 
             if (state == GameManager.States.EnterGame)
                 GameManager.instance.EnterGame();
 
             if (state != GameManager.States.GameOver)
-                direction = Vector3.up * strength;
+                birdRigidbody.velocity = Vector2.up * strength;
         }
 
         if (state == GameManager.States.EnterGame)
         {
-            transform.position = new Vector2(-1.2f, 0f) + (Vector2.up * 0.12f * Mathf.Sin(floating_degrees * Mathf.PI / 180f));
-            floating_degrees = (floating_degrees + 180f * Time.deltaTime) % 360f;
+            transform.position = new Vector2(-1.2f, 0f) + (Vector2.up * 0.18f * Mathf.Sin(floating_degrees * Mathf.PI / 180f));
+            floating_degrees = (floating_degrees + 400f * Time.deltaTime) % 360f;
         }
         else
         {
-            direction.y += gravity * Time.deltaTime;
-            transform.position += direction * Time.deltaTime;
+            Debug.Log(birdRigidbody.velocity.y);
+            float zRotation = transform.eulerAngles.z;
+            if (birdRigidbody.velocity.y <= -4) {
+            zRotation = (birdRigidbody.velocity.y + 5f) * tilt;
+            }
+            else {
+                zRotation = 25;
+            }
+            if (zRotation <= -90f) {
+                zRotation = -90f;
+            }
 
-            Vector3 rotation = transform.eulerAngles;
-            rotation.z = direction.y * tilt;
-            transform.eulerAngles = rotation;
+            transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, zRotation);
         }
 
+        if(transform.position.y < -10f) {
+            Destroy(gameObject);
+        }
     }
 
     private void AnimateSprite() {
@@ -69,7 +80,6 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag == "obstacle" || other.gameObject.tag == "ground")
         {
             GameManager.instance.GameOver();
-            direction.x = 0f;
         } 
         else if(other.gameObject.tag == "scoring")
         {

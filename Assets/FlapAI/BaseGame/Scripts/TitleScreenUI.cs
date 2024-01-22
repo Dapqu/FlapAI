@@ -7,9 +7,21 @@ public class TitleScreenUI : MonoBehaviour
 {
 
     [SerializeField] GameObject Title;
+    [SerializeField] GameObject Bird;
+    [SerializeField] GameObject AiTitle;
+
     RectTransform TitleRect;
+    RectTransform BirdRect;
+    RectTransform AiTitleRect;
+
     Vector2 titleStartPosition;
+    Vector2 birdStartPosition;
+    Vector2 aiTitleStartPosition;
+
     float titleYPosDegs = 0;
+
+    float bounceSpeed = 400f;
+    float bounceRange = 18f;
 
     [SerializeField] Button Easy;
     [SerializeField] Button Hard; //not used yet
@@ -24,12 +36,20 @@ public class TitleScreenUI : MonoBehaviour
     {
         TitleRect = Title.GetComponent<RectTransform>();
         titleStartPosition = TitleRect.anchoredPosition;
+
+        BirdRect = Bird.GetComponent<RectTransform>();
+        birdStartPosition = BirdRect.anchoredPosition;
+
+        AiTitleRect = AiTitle.GetComponent<RectTransform>();
+        aiTitleStartPosition = AiTitleRect.anchoredPosition;
     }
 
     void Update()
     {
-        TitleRect.anchoredPosition = titleStartPosition + (Vector2.up * 12 * Mathf.Sin(titleYPosDegs * Mathf.PI / 180f));
-        titleYPosDegs = (titleYPosDegs + 120 * Time.deltaTime) % 360;
+        TitleRect.anchoredPosition = titleStartPosition + (Vector2.up * bounceRange * Mathf.Sin(titleYPosDegs * Mathf.PI / 180f));
+        BirdRect.anchoredPosition = birdStartPosition + (Vector2.up * bounceRange * Mathf.Sin(titleYPosDegs * Mathf.PI / 180f));
+        AiTitleRect.anchoredPosition = aiTitleStartPosition + (Vector2.up * bounceRange * Mathf.Sin(titleYPosDegs * Mathf.PI / 180f));
+        titleYPosDegs = (titleYPosDegs + bounceSpeed * Time.deltaTime) % 360;
     }
 
     void EasyClicked()
