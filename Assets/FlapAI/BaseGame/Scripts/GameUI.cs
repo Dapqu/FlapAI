@@ -12,10 +12,12 @@ public class GameUI : MonoBehaviour
     [SerializeField] Canvas gameOverScreen;
     [SerializeField] TextMeshProUGUI gameOverScoreText;
     [SerializeField] TextMeshProUGUI gameOverHighScoreText;
+    [SerializeField] Button okButton;
 
     private void Awake()
     {
         instance = this;
+        okButton.onClick.AddListener(okPressed);
     }
 
     public void UpdateScore(int score)
@@ -25,12 +27,20 @@ public class GameUI : MonoBehaviour
 
     public void GameOver()
     {
-        CanvasGroup scrn = gameOverScreen.GetComponent<CanvasGroup>();
-        scrn.alpha = 1f;
-        scrn.interactable = true;
-        scrn.blocksRaycasts = true;
+        CanvasGroup screen = gameOverScreen.GetComponent<CanvasGroup>();
+        screen.alpha = 1f;
+        screen.interactable = true;
+        screen.blocksRaycasts = true;
+
+        CanvasGroup scoreTextGroup = scoreText.GetComponent<CanvasGroup>();
+        scoreTextGroup.alpha = 0f;
 
         gameOverScoreText.text = GameManager.instance.Score.ToString();
         gameOverHighScoreText.text = GameManager.instance.Highscore.ToString();
+    }
+
+    public void okPressed()
+    {
+        GameManager.instance.ReturnToMenu();
     }
 }

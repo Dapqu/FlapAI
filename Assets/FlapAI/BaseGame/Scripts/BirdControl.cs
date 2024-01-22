@@ -24,8 +24,15 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+        GameManager.States state = GameManager.instance.State;
+
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) {
-            direction = Vector3.up * strength;
+
+            if (state == GameManager.States.EnterGame)
+                GameManager.instance.EnterGame();
+
+            if (state != GameManager.States.GameOver)
+                direction = Vector3.up * strength;
         }
 
         direction.y += gravity * Time.deltaTime;
@@ -48,9 +55,12 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "obstacle") {
+        if (other.gameObject.tag == "obstacle" || other.gameObject.tag == "ground")
+        {
             GameManager.instance.GameOver();
-        } else if(other.gameObject.tag == "scoring")
+            direction.x = 0f;
+        } 
+        else if(other.gameObject.tag == "scoring")
         {
             GameManager.instance.IncreaseScore();
         }
