@@ -1,22 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class background : MonoBehaviour
+public class Background : MonoBehaviour
 {
     private MeshRenderer meshRenderer;
 
-    public float animationSpeed = 0.1f;
+    private float animationSpeed = 0.4f;
 
-    private void Awake() 
-    {
-        meshRenderer = GetComponent <MeshRenderer>();
+    private void Awake() {
+        meshRenderer = GetComponent<MeshRenderer>();
     }
 
-    private void Update() 
-    {   
-        if (GameManager.instance.State != GameManager.States.GameOver)
-        {
+    private void Update() {   
+        // Check if the game state is not GameOver
+        if (GameManager.instance.state != GameManager.States.GameOver) {
+            // Update the mainTextureOffset of the material to create a scrolling effect
             meshRenderer.material.mainTextureOffset += new Vector2(animationSpeed * Time.deltaTime, 0);
         }
     }

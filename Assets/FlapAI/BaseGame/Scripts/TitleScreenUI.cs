@@ -1,15 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class TitleScreenUI : MonoBehaviour
 {
-
-    [SerializeField] GameObject Title;
-    [SerializeField] GameObject Bird;
-    [SerializeField] GameObject AiTitle;
-
     RectTransform TitleRect;
     RectTransform BirdRect;
     RectTransform AiTitleRect;
@@ -23,38 +16,42 @@ public class TitleScreenUI : MonoBehaviour
     float bounceSpeed = 400f;
     float bounceRange = 18f;
 
-    [SerializeField] Button Easy;
-    [SerializeField] Button Hard; //not used yet
+    Button Easy;
+    Button Hard; //not used yet
 
 
-    private void Awake()
-    {
+    private void Awake() {
+        TitleRect = transform.Find("Title").GetComponent<RectTransform>();
+        BirdRect = transform.Find("Bird").GetComponent<RectTransform>();
+        AiTitleRect = transform.Find("AiTitle").GetComponent<RectTransform>();
+
+        Easy = transform.Find("Easy").GetComponent<Button>();
+        Hard = transform.Find("Hard").GetComponent<Button>();
+
         Easy.onClick.AddListener(EasyClicked);
+        Hard.onClick.AddListener(HardClicked);
     }
 
-    void Start()
-    {
-        TitleRect = Title.GetComponent<RectTransform>();
+    void Start() {
         titleStartPosition = TitleRect.anchoredPosition;
-
-        BirdRect = Bird.GetComponent<RectTransform>();
         birdStartPosition = BirdRect.anchoredPosition;
-
-        AiTitleRect = AiTitle.GetComponent<RectTransform>();
         aiTitleStartPosition = AiTitleRect.anchoredPosition;
     }
 
-    void Update()
-    {
+    void Update() {
         TitleRect.anchoredPosition = titleStartPosition + (Vector2.up * bounceRange * Mathf.Sin(titleYPosDegs * Mathf.PI / 180f));
         BirdRect.anchoredPosition = birdStartPosition + (Vector2.up * bounceRange * Mathf.Sin(titleYPosDegs * Mathf.PI / 180f));
         AiTitleRect.anchoredPosition = aiTitleStartPosition + (Vector2.up * bounceRange * Mathf.Sin(titleYPosDegs * Mathf.PI / 180f));
         titleYPosDegs = (titleYPosDegs + bounceSpeed * Time.deltaTime) % 360;
     }
 
-    void EasyClicked()
-    {
+    void EasyClicked() {
         Debug.Log("Enter game");
-        GameManager.instance.StartGame();
+        GameManager.instance.StartEastMode();
+    }
+
+    void HardClicked() {
+        Debug.Log("Enter game");
+        GameManager.instance.StartHardMode();
     }
 }

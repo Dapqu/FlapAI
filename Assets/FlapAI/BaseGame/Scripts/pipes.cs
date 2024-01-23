@@ -1,23 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class pipes : MonoBehaviour
+public class Pipes : MonoBehaviour
 {
+    // Speed at which the pipes move to the left
     private float speed = 2.4f;
-    private float leftEdge;
 
-    private void Start()
-    {
-        leftEdge = Camera.main.ScreenToWorldPoint(Vector3.zero).x - 1f;
-    }
+    // The left edge beyond which the pipes are destroyed
+    private float leftEdge = -3.2f;
 
-    private void Update()
-    {
-        if (GameManager.instance.State != GameManager.States.GameOver)
+    private void Update() {
+        // Check if the game state is not GameOver before moving the pipes
+        if (GameManager.instance.state != GameManager.States.GameOver) {
             transform.position += Vector3.left * speed * Time.deltaTime;
-    
-        if(transform.position.x < leftEdge) {
+        }
+
+        // Check if the pipes have moved beyond the leftEdge
+        if (transform.position.x < leftEdge) {
             Destroy(gameObject);
         }
     }
