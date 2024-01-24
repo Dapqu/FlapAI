@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f9235402b6ee6ca45ab9d5dad2766d13
+guid: adb89c8fa3f51fa408702d97034aa240
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Minecraft
+  - 04b_19
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

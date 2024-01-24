@@ -2,77 +2,86 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public Vector3 position { get; private set; }
+
     private SpriteRenderer spriteRenderer;
-    public Sprite[] sprites;
+    private Rigidbody2D birdRigidbody;
+    private Animator animator;
 
-    public float tilt = 5f;
-
-    private int spriteIndex;
-    private Vector3 direction;
-
-    public float gravity = -9.8f;
-
-    public float strength = 5f;
-
-    public float floating_degrees = 0f;
+    private float tilt = 15f;
+    private float strength = 5f;
+    private float floatingDegrees = 0f;
 
     private void Awake() {
+        // Get references to components in Awake
         spriteRenderer = GetComponent<SpriteRenderer>();
+        birdRigidbody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
-    private void Start() {
-        InvokeRepeating(nameof(AnimateSprite), 0.15f, 0.15f);
-    }
+    private void Update() {
+        GameManager.States state = GameManager.instance.state;
+        position = transform.position;
 
-    private void Update()
-    {
-        GameManager.States state = GameManager.instance.State;
+        if (animator.GetBool("Dead") && position.y <= -2.6) {
+            transform.position = new Vector3(-1.2f, -2.6f, 0);
+        }
 
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) {
-
+        // Handle user input
+        if (Input.GetMouseButtonDown(0)) {
+            // Check game state and perform actions accordingly
+            // Start Game
             if (state == GameManager.States.EnterGame)
                 GameManager.instance.EnterGame();
 
+            // Flap upwards
             if (state != GameManager.States.GameOver)
-                direction = Vector3.up * strength;
+                birdRigidbody.velocity = Vector2.up * strength;
         }
 
-        if (state == GameManager.States.EnterGame)
-        {
-            transform.position = new Vector2(-1.2f, 0f) + (Vector2.up * 0.12f * Mathf.Sin(floating_degrees * Mathf.PI / 180f));
-            floating_degrees = (floating_degrees + 180f * Time.deltaTime) % 360f;
+        // Handle player movement and rotation
+        if (state == GameManager.States.EnterGame) {
+            // Apply floating effect during EnterGame state
+            ApplyFloatingEffect();
         }
-        else
-        {
-            direction.y += gravity * Time.deltaTime;
-            transform.position += direction * Time.deltaTime;
-
-            Vector3 rotation = transform.eulerAngles;
-            rotation.z = direction.y * tilt;
-            transform.eulerAngles = rotation;
+        else {
+            // Adjust bird rotation based on velocity
+            if (position.y > -2.5) {
+                AdjustBirdRotation();
+            }
         }
 
+        // Check if player is below a certain y-position and destroy if necessary
+        CheckDestroyCondition();
     }
 
-    private void AnimateSprite() {
-        spriteIndex++;
-
-        if(spriteIndex >= sprites.Length) {
-            spriteIndex = 0;
-        }
-
-        spriteRenderer.sprite = sprites[spriteIndex];
+    private void ApplyFloatingEffect() {
+        // Apply a sinusoidal floating effect during EnterGame state
+        transform.position = new Vector2(-1.2f, 0f) + (Vector2.up * 0.18f * Mathf.Sin(floatingDegrees * Mathf.PI / 180f));
+        floatingDegrees = (floatingDegrees + 400f * Time.deltaTime) % 360f;
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "obstacle" || other.gameObject.tag == "ground")
+    private void AdjustBirdRotation() {
+        // Adjust bird rotation based on velocity and add a lower limit
+        float zRotation = Mathf.Clamp((birdRigidbody.velocity.y + 5f) * tilt, -90f, 25f);
+        transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, zRotation);
+    }
+
+    private void CheckDestroyCondition() {
+        // Destroy the player object if it goes below a certain y-position
+        if (transform.position.y < -10f)
         {
+            Destroy(gameObject);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        // Handle collisions with obstacles, ground, and scoring objects
+        if (other.gameObject.tag == "obstacle" || other.gameObject.tag == "ground") {
+            animator.SetBool("Dead", true);
             GameManager.instance.GameOver();
-            direction.x = 0f;
         } 
-        else if(other.gameObject.tag == "scoring")
-        {
+        else if(other.gameObject.tag == "scoring") {
             GameManager.instance.IncreaseScore();
         }
     }

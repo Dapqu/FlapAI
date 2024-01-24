@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,76 +5,69 @@ public class GameManager : MonoBehaviour
 {
    public static GameManager instance { get; private set; }
 
-   public enum States
-   {
+   public enum States {
       MenuScreen,
       EnterGame,
       ActiveGame,
       GameOver
    }
-   public States State;
+   
+   public States state { get; private set; }
 
-   private int highscore;
-   public int Highscore => highscore;
+   public int highScore { get; private set; }
 
    private int score;
-   public int Score
-   {
+   public int Score {
       get { return score; }
-      set
-      {
+      private set {
          score = value;
          if (GameUI.instance != null)
             GameUI.instance.UpdateScore(score);
       }
    }
 
-   //Exit main menu, go into game
-   public void StartGame()
-   {
-      State = States.EnterGame;
+   public void StartEastMode() {
+      state = States.EnterGame;
       SceneManager.LoadScene("FlapAI/BaseGame/Scenes/mainGame");
       Score = 0;
    }
 
-   //after clicking once, pipes start to spawn
-   public void EnterGame()
-   {
-      State = States.ActiveGame;
+   public void StartHardMode() {
+      state = States.EnterGame;
+      SceneManager.LoadScene("FlapAI/BaseGame/Scenes/hardGame");
+      Score = 0;
+   }
+
+   public void EnterGame() {
+      state = States.ActiveGame;
       GameUI.instance.EnterGame();
    }
 
-   public void GameOver() 
-   {
-      State = States.GameOver;
-      if (score > highscore)
-      {
-         highscore = score;
+   public void GameOver()  {
+      state = States.GameOver;
+      if (score > highScore) {
+         highScore = score;
       }
       GameUI.instance.GameOver();
    }
 
-   public void ReturnToMenu()
-   {
-      State = States.MenuScreen;
+   public void ReturnToMenu() {
+      state = States.MenuScreen;
       SceneManager.LoadScene("FlapAI/BaseGame/Scenes/StartScene");
    }
 
-   public void IncreaseScore()
-   {
+   public void IncreaseScore() {
       Debug.Log("Increase Score");
       Score++;
    }
 
-   void Awake()
-   {
-      if (instance == null)
-      {
+   void Awake() {
+      // Ensure only one instance of GameManager exists
+      if (instance == null) {
          instance = this;
          DontDestroyOnLoad(gameObject);
       } 
-      else if (instance != this)
-      {
+      else if (instance != this) {
          Destroy(gameObject);
       }
    }
