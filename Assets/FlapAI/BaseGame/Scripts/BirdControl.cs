@@ -77,12 +77,16 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         // Handle collisions with obstacles, ground, and scoring objects
-        if (other.gameObject.tag == "obstacle" || other.gameObject.tag == "ground") {
+        if (other.CompareTag("obstacle") || other.CompareTag("ground")) {
             animator.SetBool("Dead", true);
             GameManager.instance.GameOver();
         } 
-        else if(other.gameObject.tag == "scoring") {
+        else if(other.CompareTag("scoring")) {
             GameManager.instance.IncreaseScore();
+        }
+        else if (other.CompareTag("collectable")) {
+            GameManager.instance.IncreaseScore();
+            Destroy(other.gameObject);
         }
     }
 }

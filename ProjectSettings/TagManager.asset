@@ -7,15 +7,18 @@ TagManager:
   - obstacle
   - scoring
   - ground
+  - target
+  - bullet
+  - collectable
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Bullet
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - Collectable
   - 
   - 
   - 
