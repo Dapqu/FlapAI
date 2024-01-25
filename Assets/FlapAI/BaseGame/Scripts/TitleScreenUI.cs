@@ -17,7 +17,9 @@ public class TitleScreenUI : MonoBehaviour
     float bounceRange = 18f;
 
     Button Easy;
-    Button Hard; //not used yet
+    Button Hard;
+    
+    Button AiEasy;
 
 
     private void Awake() {
@@ -27,9 +29,11 @@ public class TitleScreenUI : MonoBehaviour
 
         Easy = transform.Find("Easy").GetComponent<Button>();
         Hard = transform.Find("Hard").GetComponent<Button>();
+        AiEasy = transform.Find("AiEasy").GetComponent<Button>();
 
         Easy.onClick.AddListener(EasyClicked);
         Hard.onClick.AddListener(HardClicked);
+        AiEasy.onClick.AddListener(AiEasyClicked);
     }
 
     void Start() {
@@ -46,12 +50,17 @@ public class TitleScreenUI : MonoBehaviour
     }
 
     void EasyClicked() {
-        Debug.Log("Enter game");
+        Debug.Log("Enter Easy game");
         GameManager.instance.StartEastMode();
     }
 
     void HardClicked() {
-        Debug.Log("Enter game");
+        Debug.Log("Enter Hard game");
         GameManager.instance.StartHardMode();
+    }
+
+    void AiEasyClicked() {
+        Debug.Log("Enter AI Easy game");
+        GameManager.instance.StartAiEastMode();
     }
 }
