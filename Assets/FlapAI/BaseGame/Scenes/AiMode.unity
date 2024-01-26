@@ -1595,7 +1595,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9385f3fc3bc4a1459c389522c24f01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pipePrefab: {fileID: 7081578027574162805, guid: 6a942d62a6984594e980925c6a45cc48, type: 3}
+  pipePrefabNormal: {fileID: 7081578027574162805, guid: 6a942d62a6984594e980925c6a45cc48, type: 3}
+  pipePrefabGravity: {fileID: 7081578027574162805, guid: 6f92f7f0b3a48e545a8b6c930390b0bd, type: 3}
   spawn: 0
   coinPrefab: {fileID: 6347571781657455785, guid: 61ff5afacac9efc45ad9876ee33a42ff, type: 3}
 --- !u!4 &1690164176

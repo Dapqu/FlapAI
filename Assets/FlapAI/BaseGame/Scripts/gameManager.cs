@@ -6,10 +6,10 @@ public class GameManager : MonoBehaviour
    public static GameManager instance { get; private set; }
 
    public enum States {
-      MenuScreen,
       EnterGame,
       ActiveGame,
-      GameOver
+      GameOver,
+      MenuScreen
    }
    
    public States state { get; private set; }

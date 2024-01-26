@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -11,6 +12,9 @@ public class Player : MonoBehaviour
     private float tilt = 15f;
     private float strength = 5f;
     private float floatingDegrees = 0f;
+
+    [SerializeField] private ParticleSystem rain;
+    private bool isPaused = false;
 
     private void Awake() {
         // Get references to components in Awake
@@ -84,9 +88,43 @@ public class Player : MonoBehaviour
         else if(other.CompareTag("scoring")) {
             GameManager.instance.IncreaseScore();
         }
+        else if (other.CompareTag("gravityScoring")) {
+            GameManager.instance.IncreaseScore();
+            StartCoroutine(SwapGravityValuesWithDelay());
+        }
         else if (other.CompareTag("collectable")) {
             GameManager.instance.IncreaseScore();
             Destroy(other.gameObject);
         }
+    }
+
+    private IEnumerator SwapGravityValuesWithDelay() {
+        float oldGravity = birdRigidbody.gravityScale;
+        float oldStrength = strength;
+
+        // Set gravityScale and strength to 0 during the delay
+        birdRigidbody.gravityScale = 0;
+        strength = 0;
+
+        TogglePause();
+
+        yield return new WaitForSeconds(0.5f);
+
+        // After the delay, swap gravityScale and strength values
+        birdRigidbody.gravityScale = oldGravity * -1;
+        strength = oldStrength * -1;
+    }
+
+    public void TogglePause() {
+        if (isPaused) {
+            // Resume particle emission
+            rain.Play();
+        }
+        else {
+            // Pause particle emission
+            rain.Pause();
+        }
+
+        isPaused = !isPaused;
     }
 }
