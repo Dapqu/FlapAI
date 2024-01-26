@@ -3,10 +3,11 @@ using UnityEngine;
 public class Spawn : MonoBehaviour
 {
     // Reference to the prefab to be spawned
-    [SerializeField] private GameObject pipePrefab;
+    [SerializeField] private GameObject pipePrefabNormal;
 
-    [Header("Coins")]
+    [Header("Hardmode")]
     [SerializeField] private System.Boolean spawn;
+    [SerializeField] private GameObject pipePrefabGravity;
     [SerializeField] private GameObject coinPrefab;
 
     private float spawnRate = 1.5f;
@@ -29,10 +30,20 @@ public class Spawn : MonoBehaviour
     }
 
     private void Spn() {
-        // Check if the game state is ActiveGame
         if (GameManager.instance.state == GameManager.States.ActiveGame) {
-            // Instantiate the prefab at the spawn point with a random height
-            GameObject pipes = Instantiate(pipePrefab, transform.position, Quaternion.identity);
+            GameObject pipes;
+
+            // Generate a random number between 0 and 1
+            float randomValue = Random.value;
+
+            // If spawn is true and the random value is less than or equal to 0.2 (20% chance)
+            if (spawn && randomValue <= 0.2f) {
+                pipes = Instantiate(pipePrefabGravity, transform.position, Quaternion.identity);
+            }
+            else {
+                pipes = Instantiate(pipePrefabNormal, transform.position, Quaternion.identity);
+            }
+
             pipes.transform.position += Vector3.up * Random.Range(minHeight, maxHeight);
 
             if (spawn) {

@@ -10,6 +10,7 @@ TagManager:
   - target
   - bullet
   - collectable
+  - gravityScoring
   layers:
   - Default
   - TransparentFX
@@ -52,6 +53,9 @@ TagManager:
     locked: 0
   - name: Game_elements
     uniqueID: 1625637613
+    locked: 0
+  - name: VFX
+    uniqueID: 3886992627
     locked: 0
   - name: UI_elements
     uniqueID: 4276995661
