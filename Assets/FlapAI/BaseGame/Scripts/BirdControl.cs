@@ -105,6 +105,7 @@ public class Player : MonoBehaviour
         // Set gravityScale and strength to 0 during the delay
         birdRigidbody.gravityScale = 0;
         strength = 0;
+        birdRigidbody.velocity = new Vector2(birdRigidbody.velocity.x, 0f);
 
         TogglePause();
 
