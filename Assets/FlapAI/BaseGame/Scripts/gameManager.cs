@@ -1,9 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.IO;
 
 public class GameManager : MonoBehaviour
 {
    public static GameManager instance { get; private set; }
+
+   private string savePath = "/GameData.json";
 
    public enum States {
       EnterGame,
@@ -11,7 +14,7 @@ public class GameManager : MonoBehaviour
       GameOver,
       MenuScreen
    }
-   
+
    public States state { get; private set; }
 
    public int highScore { get; private set; }
@@ -24,6 +27,28 @@ public class GameManager : MonoBehaviour
          if (GameUI.instance != null)
             GameUI.instance.UpdateScore(score);
       }
+   }
+
+   public void LoadScore() {
+      string json = File.ReadAllText(Application.dataPath + savePath);
+      GameData data = JsonUtility.FromJson<GameData>(json);
+      highScore = data.highScore;
+   }
+
+   public void SaveScore() {
+      GameData data;
+      // if data already exists, load it to modify score, otherwise create new
+      if (File.Exists(Application.dataPath + savePath))
+      {
+         string oldJson = File.ReadAllText(Application.dataPath + savePath);
+         data = JsonUtility.FromJson<GameData>(oldJson);
+      }
+      else
+         data = new GameData();
+
+      data.highScore = highScore;
+      string newJson = JsonUtility.ToJson(data, true);
+      File.WriteAllText(Application.dataPath + savePath, newJson);
    }
 
    public void StartEastMode() {
@@ -53,6 +78,7 @@ public class GameManager : MonoBehaviour
       state = States.GameOver;
       if (score > highScore) {
          highScore = score;
+         SaveScore();
       }
       GameUI.instance.GameOver();
    }
@@ -75,5 +101,7 @@ public class GameManager : MonoBehaviour
       else if (instance != this) {
          Destroy(gameObject);
       }
+      //Load high score
+      LoadScore();
    }
 }

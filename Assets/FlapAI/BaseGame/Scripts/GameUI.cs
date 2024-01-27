@@ -12,6 +12,11 @@ public class GameUI : MonoBehaviour
     private TextMeshProUGUI gameOverHighScoreText;
     private Button okButton;
     private Canvas tutorialScreen;
+    private Image gameOverMedal;
+
+    [SerializeField] private Sprite[] medals;
+    [SerializeField] private int[] scoreThresholds;
+
 
     private void Awake() {
         instance = this;
@@ -22,6 +27,7 @@ public class GameUI : MonoBehaviour
         okButton = gameOverScreen.transform.Find("Ok").GetComponent<Button>();
         gameOverScoreText = gameOverScreen.transform.Find("ScorePanel/Score").GetComponent<TextMeshProUGUI>();
         gameOverHighScoreText = gameOverScreen.transform.Find("ScorePanel/Best").GetComponent<TextMeshProUGUI>();
+        gameOverMedal = gameOverScreen.transform.Find("ScorePanel/Medal").GetComponent<Image>();
 
         okButton.onClick.AddListener(okPressed);
     }
@@ -39,8 +45,23 @@ public class GameUI : MonoBehaviour
         CanvasGroup scoreTextGroup = scoreText.GetComponent<CanvasGroup>();
         SetCanvasGroupProperties(scoreTextGroup, 0f, false);
 
-        gameOverScoreText.text = GameManager.instance.Score.ToString();
         gameOverHighScoreText.text = GameManager.instance.highScore.ToString();
+        int score = GameManager.instance.Score;
+        gameOverScoreText.text = score.ToString();
+
+        //Check if score reaches medal threshold
+        if (score >= scoreThresholds[0])
+        {
+            CanvasGroup medalGroup = gameOverMedal.GetComponent<CanvasGroup>();
+            SetCanvasGroupProperties(medalGroup, 1f, true);
+            int spriteIndex = 0;
+            for (int i=0; i<scoreThresholds.Length; i++)
+            {
+                if (score >= scoreThresholds[i]) 
+                    spriteIndex = i;
+            }
+            gameOverMedal.GetComponent<Image>().sprite = medals[spriteIndex];
+        }
     }
 
     // Transition into the game, showing score and hiding tutorial
