@@ -11,6 +11,7 @@ TagManager:
   - bullet
   - collectable
   - gravityScoring
+  - bubbleScoring
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - UI
   - Player
   - Collectable
-  - 
+  - Obstacle
   - 
   - 
   - 

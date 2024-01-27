@@ -63,7 +63,6 @@ public class GameManager : MonoBehaviour
    }
 
    public void IncreaseScore() {
-      Debug.Log("Increase Score");
       Score++;
    }
 

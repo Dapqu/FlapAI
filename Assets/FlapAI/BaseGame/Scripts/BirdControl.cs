@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -8,10 +9,14 @@ public class Player : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Rigidbody2D birdRigidbody;
     private Animator animator;
+    [SerializeField] private SpriteRenderer bubble;
+
+    private Boolean hasBubble = false;
 
     private float tilt = 15f;
     private float strength = 5f;
     private float floatingDegrees = 0f;
+    private float alphaIncreaseSpeed = 1f;
 
     [SerializeField] private ParticleSystem rain;
     private bool isPaused = false;
@@ -21,6 +26,7 @@ public class Player : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         birdRigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        bubble = transform.Find("Bubble").GetComponent<SpriteRenderer>();
     }
 
     private void Update() {
@@ -55,6 +61,10 @@ public class Player : MonoBehaviour
             }
         }
 
+        if (!hasBubble) {
+            bubble.color = new Color(bubble.color.r, bubble.color.g, bubble.color.b, 0f);
+        }
+
         // Check if player is below a certain y-position and destroy if necessary
         CheckDestroyCondition();
     }
@@ -81,10 +91,20 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         // Handle collisions with obstacles, ground, and scoring objects
-        if (other.CompareTag("obstacle") || other.CompareTag("ground")) {
+        if (other.CompareTag("obstacle")) {
+            if (hasBubble) {
+                StartCoroutine(Invinsible());
+            }
+            else {
+                animator.SetBool("Dead", true);
+                GameManager.instance.GameOver();
+            }
+        } 
+        else if (other.CompareTag("ground")) {
+            Debug.Log("Hit!!!");
             animator.SetBool("Dead", true);
             GameManager.instance.GameOver();
-        } 
+        }
         else if(other.CompareTag("scoring")) {
             GameManager.instance.IncreaseScore();
         }
@@ -92,9 +112,24 @@ public class Player : MonoBehaviour
             GameManager.instance.IncreaseScore();
             StartCoroutine(SwapGravityValuesWithDelay());
         }
+        else if (other.CompareTag("bubbleScoring")) {
+            GameManager.instance.IncreaseScore();
+            // Add a bubble around player, extra life shield
+            hasBubble = true;
+            StartCoroutine(FadeInBubble());
+        }
         else if (other.CompareTag("collectable")) {
             GameManager.instance.IncreaseScore();
             Destroy(other.gameObject);
+        }
+    }
+
+    IEnumerator FadeInBubble() {
+        // Gradually increase the alpha value
+        while (bubble.color.a < 0.8f) {
+            float newAlpha = Mathf.MoveTowards(bubble.color.a, 1f, alphaIncreaseSpeed * Time.deltaTime);
+            bubble.color = new Color(bubble.color.r, bubble.color.g, bubble.color.b, newAlpha);
+            yield return null;
         }
     }
 
@@ -114,6 +149,30 @@ public class Player : MonoBehaviour
         // After the delay, swap gravityScale and strength values
         birdRigidbody.gravityScale = oldGravity * -1;
         strength = oldStrength * -1;
+    }
+
+    IEnumerator Invinsible() {        
+        // Disable collision with "obstacle" objects
+        Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Obstacle"), true);
+
+        hasBubble = false;
+        bubble.color = new Color(bubble.color.r, bubble.color.g, bubble.color.b, 0f);
+
+        // Blink the sprite for 2 seconds
+        float blinkDuration = 2f;
+        float blinkInterval = 0.2f;
+
+        while (blinkDuration > 0f) {
+            spriteRenderer.enabled = !spriteRenderer.enabled;
+            yield return new WaitForSeconds(blinkInterval);
+            blinkDuration -= blinkInterval;
+        }
+
+        // Ensure the sprite is visible after blinking
+        spriteRenderer.enabled = true;
+
+        // Restore the original collision state
+        Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Obstacle"), false);
     }
 
     public void TogglePause() {

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4755476654165226796}
   - component: {fileID: 1403922200448762023}
   - component: {fileID: 2704379123785430261}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: SPR_TopPipe
   m_TagString: obstacle
   m_Icon: {fileID: 0}
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 9ef9dcdfc58e77e41b668260be988d01, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 16691ecf217eeba4db91a7ba013f4733, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 7460744642236609464}
   - component: {fileID: 5760385993646148670}
   - component: {fileID: 3519176775598469552}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: SPR_BottomPipe
   m_TagString: obstacle
   m_Icon: {fileID: 0}
@@ -204,7 +204,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 05f1f4800fc570043aa3f350cdff40c4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8ceca2e7e4f31574d9b6c6862eeb058c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -272,7 +272,7 @@ GameObject:
   - component: {fileID: 348415431731364024}
   m_Layer: 0
   m_Name: passed
-  m_TagString: gravityScoring
+  m_TagString: bubbleScoring
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 4369014186150851547}
   - component: {fileID: 5751655406259320525}
   m_Layer: 0
-  m_Name: ClosedPipeGravity
+  m_Name: ClosedPipeBubble
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

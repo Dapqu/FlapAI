@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4755476654165226796}
   - component: {fileID: 1403922200448762023}
   - component: {fileID: 2704379123785430261}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SPR_TopPipe
   m_TagString: obstacle
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 7460744642236609464}
   - component: {fileID: 5760385993646148670}
   - component: {fileID: 3519176775598469552}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SPR_BottomPipe
   m_TagString: obstacle
   m_Icon: {fileID: 0}

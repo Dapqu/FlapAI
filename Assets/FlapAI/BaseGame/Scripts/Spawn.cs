@@ -8,6 +8,7 @@ public class Spawn : MonoBehaviour
     [Header("Hardmode")]
     [SerializeField] private System.Boolean spawn;
     [SerializeField] private GameObject pipePrefabGravity;
+    [SerializeField] private GameObject pipePrefabBubble;
     [SerializeField] private GameObject coinPrefab;
 
     private float spawnRate = 1.5f;
@@ -33,11 +34,15 @@ public class Spawn : MonoBehaviour
         if (GameManager.instance.state == GameManager.States.ActiveGame) {
             GameObject pipes;
 
-            // Generate a random number between 0 and 1
+            // 0 to 1
             float randomValue = Random.value;
 
-            // If spawn is true and the random value is less than or equal to 0.2 (20% chance)
-            if (spawn && randomValue <= 0.2f) {
+            // If spawn is true and the random value is less than or equal to 0.1 (10% chance)
+            if (spawn && randomValue <= 0.1f) {
+                pipes = Instantiate(pipePrefabBubble, transform.position, Quaternion.identity);
+            }
+            // If spawn is true and the random value is greater than 0.1 but less than or equal to 0.3 (20% chance)
+            else if (spawn && randomValue > 0.1f && randomValue <= 0.3f) {
                 pipes = Instantiate(pipePrefabGravity, transform.position, Quaternion.identity);
             }
             else {
