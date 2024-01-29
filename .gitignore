@@ -74,3 +74,6 @@ crashlytics-build.properties
 # Ignore temporaries from GameCI
 /[Aa]rtifacts/
 /[Cc]odeCoverage/
+
+#Ignore saved date
+/[Aa]ssets/GameData.json*
