@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     public Vector3 position { get; private set; }
 
     private SpriteRenderer spriteRenderer;
-    private Rigidbody2D birdRigidbody;
+    public Rigidbody2D birdRigidbody;
     private Animator animator;
     [SerializeField] private SpriteRenderer bubble;
 
