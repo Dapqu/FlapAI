@@ -12,6 +12,8 @@ TagManager:
   - collectable
   - gravityScoring
   - bubbleScoring
+  - ground_training
+  - obstacle_training
   layers:
   - Default
   - TransparentFX

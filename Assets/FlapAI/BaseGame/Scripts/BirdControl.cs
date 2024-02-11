@@ -29,6 +29,10 @@ public class Player : MonoBehaviour
         bubble = transform.Find("Bubble").GetComponent<SpriteRenderer>();
     }
 
+    public void Jump() {
+        birdRigidbody.velocity = Vector2.up * strength;
+    }
+
     private void Update() {
         GameManager.States state = GameManager.instance.state;
         position = transform.position;
@@ -44,9 +48,8 @@ public class Player : MonoBehaviour
             if (state == GameManager.States.EnterGame)
                 GameManager.instance.EnterGame();
 
-            // Flap upwards
             if (state != GameManager.States.GameOver)
-                birdRigidbody.velocity = Vector2.up * strength;
+                Jump();
         }
 
         // Handle player movement and rotation
@@ -101,7 +104,6 @@ public class Player : MonoBehaviour
             }
         } 
         else if (other.CompareTag("ground")) {
-            Debug.Log("Hit!!!");
             animator.SetBool("Dead", true);
             GameManager.instance.GameOver();
         }
@@ -122,6 +124,11 @@ public class Player : MonoBehaviour
             GameManager.instance.IncreaseScore();
             Destroy(other.gameObject);
         }
+        else if (other.CompareTag("obstacle_training") || other.CompareTag("ground_training")) {
+            Debug.Log("Test");
+            transform.Find("Agent").GetComponent<EasyAgent>().Entered(other);
+        }
+
     }
 
     IEnumerator FadeInBubble() {
