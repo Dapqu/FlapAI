@@ -124,11 +124,6 @@ public class Player : MonoBehaviour
             GameManager.instance.IncreaseScore();
             Destroy(other.gameObject);
         }
-        else if (other.CompareTag("obstacle_training") || other.CompareTag("ground_training")) {
-            Debug.Log("Test");
-            transform.Find("Agent").GetComponent<EasyAgent>().Entered(other);
-        }
-
     }
 
     IEnumerator FadeInBubble() {
