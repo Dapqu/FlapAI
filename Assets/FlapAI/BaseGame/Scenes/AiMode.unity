@@ -461,10 +461,10 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: d0173e53e67db6042b10c9c177092978, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: 33f807797e88a78438192af3cee8fbcf, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 2
-  m_BehaviorName: My Behavior
+  m_BehaviorName: Behavior1
   TeamId: 0
   m_UseChildSensors: 1
   m_UseChildActuators: 1
