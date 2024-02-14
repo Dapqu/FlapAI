@@ -53,14 +53,14 @@ public class EasyAgent : Agent
         }
 
         if (other.CompareTag("ground_training") || other.CompareTag("obstacle_training")) {
-            AddReward(-0.5f);
+            AddReward(-1.0f);
             EndEpisode();
         }
 
     }
 
     private void Update() {
-        AddReward(1.0f * Time.deltaTime);
+        AddReward(+1.0f * Time.deltaTime);
         normalizedpos = normalize(transform.position.y, top, bottom);
         if (Input.GetKeyDown(KeyCode.L)) {
             EndEpisode();
