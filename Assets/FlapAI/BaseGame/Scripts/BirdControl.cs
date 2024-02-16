@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     public Rigidbody2D birdRigidbody;
     private Animator animator;
     [SerializeField] private SpriteRenderer bubble;
+    private Transform sprite;
 
     private Boolean hasBubble = false;
 
@@ -23,9 +24,10 @@ public class Player : MonoBehaviour
 
     private void Awake() {
         // Get references to components in Awake
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        sprite = transform.Find("Sprite");
+        spriteRenderer = sprite.GetComponent<SpriteRenderer>();
         birdRigidbody = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        animator = sprite.GetComponent<Animator>();
         bubble = transform.Find("Bubble").GetComponent<SpriteRenderer>();
     }
 
@@ -81,7 +83,7 @@ public class Player : MonoBehaviour
     private void AdjustBirdRotation() {
         // Adjust bird rotation based on velocity and add a lower limit
         float zRotation = Mathf.Clamp((birdRigidbody.velocity.y + 5f) * tilt, -90f, 25f);
-        transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, zRotation);
+        sprite.transform.eulerAngles = new Vector3(sprite.transform.eulerAngles.x, sprite.transform.eulerAngles.y, zRotation);
     }
 
     private void CheckDestroyCondition() {

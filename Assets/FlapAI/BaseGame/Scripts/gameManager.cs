@@ -92,6 +92,10 @@ public class GameManager : MonoBehaviour
       Score++;
    }
 
+   public void ResetScore() {
+      Score = 0;
+   }
+
    void Awake() {
       // Ensure only one instance of GameManager exists
       if (instance == null) {

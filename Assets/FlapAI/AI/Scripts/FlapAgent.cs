@@ -36,6 +36,8 @@ public class EasyAgent : Agent
     }
 
     public override void OnEpisodeBegin() {
+        spawner.Reset();
+        GameManager.instance.ResetScore();
         transform.position = new Vector3(-1.2f, 0f, 0f);
         transform.eulerAngles = new Vector3(0f, 0f, 0f);
         birdRigidbody.velocity = new Vector2(0f, 0f);
@@ -56,7 +58,7 @@ public class EasyAgent : Agent
 
     public void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("scoring")) {
-            AddReward(1f);
+            AddReward(+1f);
         }
 
         if (other.CompareTag("ground_training") || other.CompareTag("obstacle_training")) {
@@ -72,6 +74,7 @@ public class EasyAgent : Agent
     }
 
     private void Update() {
+        AddReward(+0.5f * Time.deltaTime);
         closestPipe = spawner.GetClosestPipePos();
         normalizedpos = normalize(transform.position.y, top, bottom);
         if (Input.GetKeyDown(KeyCode.L)) {

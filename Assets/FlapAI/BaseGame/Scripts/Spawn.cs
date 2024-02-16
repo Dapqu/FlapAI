@@ -79,4 +79,11 @@ public class Spawn : MonoBehaviour
         else
             return transform.position.x;
     }
+
+    public void Reset() {
+        foreach (GameObject obj in pipes) {
+            Destroy(obj);
+        }
+        pipes.Clear();
+    }
 }

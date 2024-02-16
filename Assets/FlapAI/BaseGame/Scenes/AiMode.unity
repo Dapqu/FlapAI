@@ -533,10 +533,10 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 33f807797e88a78438192af3cee8fbcf, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: bf7a7c075b752aa4fa901d57706fb768, type: 3}
   m_InferenceDevice: 0
-  m_BehaviorType: 1
-  m_BehaviorName: Behavior1
+  m_BehaviorType: 2
+  m_BehaviorName: MedPipe1
   TeamId: 0
   m_UseChildSensors: 1
   m_UseChildActuators: 1
@@ -569,9 +569,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2902496c0120472b90269f94a0aec7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Record: 1
+  Record: 0
   NumStepsToRecord: 0
-  DemonstrationName: EasyDemo3
+  DemonstrationName: EasyRayMedPipe1
   DemonstrationDirectory: Assets/FlapAI/AI/Scripts/Demos
 --- !u!1 &1507934420
 GameObject:
