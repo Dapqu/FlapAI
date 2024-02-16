@@ -15,8 +15,8 @@ public class Pipes : MonoBehaviour
         }
 
         // Check if the pipes have moved beyond the leftEdge
-        if (transform.position.x < leftEdge) {
-            Destroy(gameObject);
-        }
+        // if (transform.position.x < leftEdge) {
+        //     Destroy(gameObject);
+        // }
     }
 }

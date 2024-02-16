@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class Spawn : MonoBehaviour
 {
@@ -19,6 +20,11 @@ public class Spawn : MonoBehaviour
     private float minCoinHeight = -2f;
     private float maxCoinHeight = 4f;
 
+    // The left edge beyond which the pipes are destroyed
+    private float leftEdge = -3.2f;
+
+    Queue<GameObject> pipes = new Queue<GameObject>();
+
     private void OnEnable() {
         if (spawn) {
             spawnRate = 2f;
@@ -32,29 +38,45 @@ public class Spawn : MonoBehaviour
 
     private void Spn() {
         if (GameManager.instance.state == GameManager.States.ActiveGame) {
-            GameObject pipes;
+            GameObject pipe;
 
             // 0 to 1
             float randomValue = Random.value;
 
             // If spawn is true and the random value is less than or equal to 0.1 (10% chance)
             if (spawn && randomValue <= 0.1f) {
-                pipes = Instantiate(pipePrefabBubble, transform.position, Quaternion.identity);
+                pipe = Instantiate(pipePrefabBubble, transform.position, Quaternion.identity);
             }
             // If spawn is true and the random value is greater than 0.1 but less than or equal to 0.3 (20% chance)
             else if (spawn && randomValue > 0.1f && randomValue <= 0.3f) {
-                pipes = Instantiate(pipePrefabGravity, transform.position, Quaternion.identity);
+                pipe = Instantiate(pipePrefabGravity, transform.position, Quaternion.identity);
             }
             else {
-                pipes = Instantiate(pipePrefabNormal, transform.position, Quaternion.identity);
+                pipe = Instantiate(pipePrefabNormal, transform.position, Quaternion.identity);
             }
 
-            pipes.transform.position += Vector3.up * Random.Range(minHeight, maxHeight);
+            pipe.transform.position += Vector3.up * Random.Range(minHeight, maxHeight);
 
             if (spawn) {
                 GameObject coins = Instantiate(coinPrefab, new Vector3(transform.position.x + 1.8f, transform.position.y, transform.position.z), Quaternion.identity);
                 coins.transform.position += Vector3.up * Random.Range(minCoinHeight, maxCoinHeight);
             }
+            pipes.Enqueue(pipe);
+
         }
+    }
+
+    private void Update() {
+        if (pipes.Count > 0 && pipes.Peek().transform.position.x < leftEdge) {
+            Destroy(pipes.Peek());
+            pipes.Dequeue();
+        }
+    }
+
+    public float GetClosestPipePos() {
+        if (pipes.Count > 0)
+            return pipes.Peek().transform.position.x;
+        else
+            return transform.position.x;
     }
 }

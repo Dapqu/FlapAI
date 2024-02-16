@@ -406,7 +406,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 9051040441282358662, guid: b2562d6ab7f98ae4c974c98eefdc944e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 581786180}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 9113543785383170425, guid: b2562d6ab7f98ae4c974c98eefdc944e, type: 3}
       insertIndex: -1
@@ -417,12 +420,80 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9113543785383170425, guid: b2562d6ab7f98ae4c974c98eefdc944e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 913293687}
+    - targetCorrespondingSourceObject: {fileID: 9113543785383170425, guid: b2562d6ab7f98ae4c974c98eefdc944e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 913293693}
   m_SourcePrefab: {fileID: 100100000, guid: b2562d6ab7f98ae4c974c98eefdc944e, type: 3}
+--- !u!4 &379900238 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9051040441282358662, guid: b2562d6ab7f98ae4c974c98eefdc944e, type: 3}
+  m_PrefabInstance: {fileID: 379900237}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &512669582 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9113543785383170425, guid: b2562d6ab7f98ae4c974c98eefdc944e, type: 3}
   m_PrefabInstance: {fileID: 379900237}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &581786179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 581786180}
+  - component: {fileID: 581786181}
+  m_Layer: 6
+  m_Name: MLRaycast
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &581786180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581786179}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 379900238}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+--- !u!114 &581786181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581786179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f67c7e722ba14acd9153bb4488bff6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SensorName: RayPerceptionSensor
+  m_DetectableTags:
+  - obstacle_training
+  - ground_training
+  m_RaysPerDirection: 5
+  m_MaxRayDegrees: 80
+  m_SphereCastRadius: 0
+  m_RayLength: 5.5
+  m_RayLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  m_ObservationStacks: 1
+  m_AlternatingRayOrder: 0
+  m_UseBatchedRaycasts: 0
+  rayHitColor: {r: 1, g: 0, b: 0, a: 1}
+  rayMissColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &913293685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -439,6 +510,7 @@ MonoBehaviour:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
+  spawner: {fileID: 1690164175}
 --- !u!114 &913293686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -452,7 +524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 2
+    VectorObservationSize: 3
     NumStackedVectorObservations: 1
     m_ActionSpec:
       m_NumContinuousActions: 0
@@ -463,7 +535,7 @@ MonoBehaviour:
     hasUpgradedBrainParametersWithActionSpec: 1
   m_Model: {fileID: 5022602860645237092, guid: 33f807797e88a78438192af3cee8fbcf, type: 3}
   m_InferenceDevice: 0
-  m_BehaviorType: 2
+  m_BehaviorType: 1
   m_BehaviorName: Behavior1
   TeamId: 0
   m_UseChildSensors: 1
@@ -485,6 +557,22 @@ MonoBehaviour:
   DecisionPeriod: 5
   DecisionStep: 0
   TakeActionsBetweenDecisions: 1
+--- !u!114 &913293693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512669582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2902496c0120472b90269f94a0aec7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Record: 1
+  NumStepsToRecord: 0
+  DemonstrationName: EasyDemo3
+  DemonstrationDirectory: Assets/FlapAI/AI/Scripts/Demos
 --- !u!1 &1507934420
 GameObject:
   m_ObjectHideFlags: 0
@@ -749,7 +837,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1958410724}
   - component: {fileID: 1958410723}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TopCollision
   m_TagString: obstacle_training
   m_Icon: {fileID: 0}

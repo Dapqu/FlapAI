@@ -9,6 +9,10 @@ public class EasyAgent : Agent
 {
     private Player player;
     private Rigidbody2D birdRigidbody;
+    [SerializeField] private Spawn spawner;
+
+    // public gameObject rays;
+    // private float[] hits = new float[5];
 
     private float top = 4.5f;
     private float bottom = -2.6f;
@@ -16,6 +20,8 @@ public class EasyAgent : Agent
     private float normalize(float pos, float top, float bottom) {
         return (pos - bottom) / (top - bottom);
     }
+
+    private float closestPipe;
 
     private void Awake() {
         // Get references to components in Awake
@@ -39,6 +45,7 @@ public class EasyAgent : Agent
     public override void CollectObservations(VectorSensor sensor) {
         sensor.AddObservation(normalizedpos);
         sensor.AddObservation(birdRigidbody.velocity.y);
+        sensor.AddObservation(closestPipe);
     }
 
     public override void OnActionReceived(ActionBuffers actions) {
@@ -49,18 +56,23 @@ public class EasyAgent : Agent
 
     public void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("scoring")) {
-            //AddReward(1f);
+            AddReward(1f);
         }
 
         if (other.CompareTag("ground_training") || other.CompareTag("obstacle_training")) {
-            AddReward(-1.0f);
+            AddReward(-0.5f);
             EndEpisode();
         }
 
     }
 
+    public override void Heuristic(in ActionBuffers actions) {
+        ActionSegment<int> discreteActions = actions.DiscreteActions;
+        discreteActions[0] = Input.GetMouseButtonDown(0) ? 1 : 0;
+    }
+
     private void Update() {
-        AddReward(+1.0f * Time.deltaTime);
+        closestPipe = spawner.GetClosestPipePos();
         normalizedpos = normalize(transform.position.y, top, bottom);
         if (Input.GetKeyDown(KeyCode.L)) {
             EndEpisode();
