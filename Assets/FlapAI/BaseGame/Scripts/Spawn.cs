@@ -67,17 +67,17 @@ public class Spawn : MonoBehaviour
     }
 
     private void Update() {
-        if (pipes.Count > 0 && pipes.Peek().transform.position.x < leftEdge) {
-            Destroy(pipes.Peek());
+        if (pipes.Count > 0 && pipes.Peek().transform.position.x < -1.2f) {
+            Destroy(pipes.Peek(), 2.0f);
             pipes.Dequeue();
         }
     }
 
-    public float GetClosestPipePos() {
+    public Vector3 GetClosestPipePos() {
         if (pipes.Count > 0)
-            return pipes.Peek().transform.position.x;
+            return pipes.Peek().transform.position;
         else
-            return transform.position.x;
+            return transform.position;
     }
 
     public void Reset() {

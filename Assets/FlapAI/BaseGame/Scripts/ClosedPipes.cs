@@ -13,11 +13,6 @@ public class ClosedPipes : MonoBehaviour
         if (GameManager.instance.state != GameManager.States.GameOver) {
             transform.position += Vector3.left * speed * Time.deltaTime;
         }
-
-        // Check if the pipes have moved beyond the leftEdge
-        if (transform.position.x < leftEdge) {
-            Destroy(gameObject);
-        }
     }
 
     public void MovePipe() {

@@ -482,7 +482,7 @@ MonoBehaviour:
   m_DetectableTags:
   - obstacle_training
   - ground_training
-  m_RaysPerDirection: 5
+  m_RaysPerDirection: 7
   m_MaxRayDegrees: 80
   m_SphereCastRadius: 0
   m_RayLength: 5.5
@@ -524,7 +524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 3
+    VectorObservationSize: 4
     NumStackedVectorObservations: 1
     m_ActionSpec:
       m_NumContinuousActions: 0
@@ -533,10 +533,10 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: bf7a7c075b752aa4fa901d57706fb768, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: 91f6bfdcd2675104bbf94952b7db53f8, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 2
-  m_BehaviorName: MedPipe1
+  m_BehaviorName: SmallPipe_Gradual
   TeamId: 0
   m_UseChildSensors: 1
   m_UseChildActuators: 1
@@ -554,9 +554,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DecisionPeriod: 5
+  DecisionPeriod: 2
   DecisionStep: 0
-  TakeActionsBetweenDecisions: 1
+  TakeActionsBetweenDecisions: 0
 --- !u!114 &913293693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -571,7 +571,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Record: 0
   NumStepsToRecord: 0
-  DemonstrationName: EasyRayMedPipe1
+  DemonstrationName: NarrowWidth
   DemonstrationDirectory: Assets/FlapAI/AI/Scripts/Demos
 --- !u!1 &1507934420
 GameObject:
