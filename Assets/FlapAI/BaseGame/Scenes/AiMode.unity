@@ -482,8 +482,8 @@ MonoBehaviour:
   m_DetectableTags:
   - obstacle_training
   - ground_training
-  m_RaysPerDirection: 7
-  m_MaxRayDegrees: 80
+  m_RaysPerDirection: 9
+  m_MaxRayDegrees: 90
   m_SphereCastRadius: 0
   m_RayLength: 5.5
   m_RayLayerMask:
@@ -509,7 +509,7 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 7500
+  MaxStep: 10000
   spawner: {fileID: 1690164175}
 --- !u!114 &913293686
 MonoBehaviour:
@@ -535,8 +535,8 @@ MonoBehaviour:
     hasUpgradedBrainParametersWithActionSpec: 1
   m_Model: {fileID: 5022602860645237092, guid: 5a93ed542d53d7c46a1184be05b1d4cd, type: 3}
   m_InferenceDevice: 0
-  m_BehaviorType: 2
-  m_BehaviorName: Curriculum_1
+  m_BehaviorType: 0
+  m_BehaviorName: Curriculum_2
   TeamId: 0
   m_UseChildSensors: 1
   m_UseChildActuators: 1
@@ -554,7 +554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DecisionPeriod: 2
+  DecisionPeriod: 1
   DecisionStep: 0
   TakeActionsBetweenDecisions: 0
 --- !u!114 &913293693
