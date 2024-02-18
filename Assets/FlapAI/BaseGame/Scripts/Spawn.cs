@@ -23,7 +23,10 @@ public class Spawn : MonoBehaviour
     // The left edge beyond which the pipes are destroyed
     private float leftEdge = -3.2f;
 
+    //Queue to store pipes
     Queue<GameObject> pipes = new Queue<GameObject>();
+    GameObject hanging_pipe = null;
+
 
     private void OnEnable() {
         if (spawn) {
@@ -67,9 +70,13 @@ public class Spawn : MonoBehaviour
     }
 
     private void Update() {
-        if (pipes.Count > 0 && pipes.Peek().transform.position.x < -1.2f) {
-            Destroy(pipes.Peek(), 2.0f);
+        if (pipes.Count > 0 && pipes.Peek().transform.position.x < -1.3f) {
+            hanging_pipe = pipes.Peek();
             pipes.Dequeue();
+        }
+        if (hanging_pipe != null && hanging_pipe.transform.position.x < leftEdge) {
+            Destroy(hanging_pipe);
+            hanging_pipe = null;
         }
     }
 
@@ -83,6 +90,10 @@ public class Spawn : MonoBehaviour
     public void Reset() {
         foreach (GameObject obj in pipes) {
             Destroy(obj);
+        }
+        if (hanging_pipe != null) {
+            Destroy(hanging_pipe);
+            hanging_pipe = null;
         }
         pipes.Clear();
     }

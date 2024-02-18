@@ -14,7 +14,6 @@ public class EasyAgent : Agent
     //top and bottom of game area, for normalizing player & pipe y positions
     private float top = 4.5f;
     private float bottom = -2.6f;
-    private float normalizedpos = 1.2f;
     private float normalize(float pos, float top, float bottom) {
         return (pos - bottom) / (top - bottom);
     }
@@ -62,7 +61,7 @@ public class EasyAgent : Agent
         }
 
         if (other.CompareTag("ground_training") || other.CompareTag("obstacle_training")) {
-            AddReward(-0.5f);
+            AddReward(-0.25f);
             EndEpisode();
         }
 
