@@ -9,7 +9,8 @@ public class GameManager : MonoBehaviour
       MenuScreen,
       EnterGame,
       ActiveGame,
-      GameOver
+      GameOver,
+      Qlearning
    }
    
    public States state { get; private set; }
@@ -17,6 +18,8 @@ public class GameManager : MonoBehaviour
    public int highScore { get; private set; }
 
    private int score;
+   public bool hitObstacle = false;
+   public bool scored = false;
    public int Score {
       get { return score; }
       private set {
@@ -32,6 +35,11 @@ public class GameManager : MonoBehaviour
       Score = 0;
    }
 
+   public void StartEastQMode() {
+      state = States.Qlearning;
+      SceneManager.LoadScene("FlapAI/BaseGame/Scenes/QlearningEasy");
+   }
+
    public void StartHardMode() {
       state = States.EnterGame;
       SceneManager.LoadScene("FlapAI/BaseGame/Scenes/hardGame");
@@ -45,6 +53,7 @@ public class GameManager : MonoBehaviour
 
    public void GameOver()  {
       state = States.GameOver;
+      hitObstacle = true;
       if (score > highScore) {
          highScore = score;
       }
@@ -58,7 +67,14 @@ public class GameManager : MonoBehaviour
 
    public void IncreaseScore() {
       Debug.Log("Increase Score");
+      scored = true;
       Score++;
+   }
+
+   public void ResetFlags()
+   {
+      hitObstacle = false;
+      scored = false;
    }
 
    void Awake() {

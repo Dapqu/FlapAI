@@ -3,7 +3,6 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public Vector3 position { get; private set; }
-
     private SpriteRenderer spriteRenderer;
     private Rigidbody2D birdRigidbody;
     private Animator animator;
@@ -59,6 +58,15 @@ public class Player : MonoBehaviour
         // Apply a sinusoidal floating effect during EnterGame state
         transform.position = new Vector2(-1.2f, 0f) + (Vector2.up * 0.18f * Mathf.Sin(floatingDegrees * Mathf.PI / 180f));
         floatingDegrees = (floatingDegrees + 400f * Time.deltaTime) % 360f;
+    }
+
+    public void Flap()
+    {
+        if (GameManager.instance.state != GameManager.States.GameOver)
+        {
+            // Apply upward velocity to the bird to simulate flapping
+            birdRigidbody.velocity = Vector2.up * strength;
+        }
     }
 
     private void AdjustBirdRotation() {
