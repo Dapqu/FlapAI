@@ -12,6 +12,7 @@ TagManager:
   - collectable
   - gravityScoring
   - bubbleScoring
+  - shrinkScoring
   layers:
   - Default
   - TransparentFX

@@ -861,6 +861,7 @@ MonoBehaviour:
   spawn: 0
   pipePrefabGravity: {fileID: 7081578027574162805, guid: 6f92f7f0b3a48e545a8b6c930390b0bd, type: 3}
   pipePrefabBubble: {fileID: 7081578027574162805, guid: 5e28f4f63442c664ba8a4afe94489bc2, type: 3}
+  pipePrefabShrink: {fileID: 7081578027574162805, guid: c81539696a2e86b49a8d661c215608d3, type: 3}
   coinPrefab: {fileID: 6347571781657455785, guid: 61ff5afacac9efc45ad9876ee33a42ff, type: 3}
 --- !u!4 &1690164176
 Transform:

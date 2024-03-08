@@ -9,6 +9,7 @@ public class Spawn : MonoBehaviour
     [SerializeField] private System.Boolean spawn;
     [SerializeField] private GameObject pipePrefabGravity;
     [SerializeField] private GameObject pipePrefabBubble;
+    [SerializeField] private GameObject pipePrefabShrink;
     [SerializeField] private GameObject coinPrefab;
 
     private float spawnRate = 1.5f;
@@ -38,12 +39,15 @@ public class Spawn : MonoBehaviour
             float randomValue = Random.value;
 
             // If spawn is true and the random value is less than or equal to 0.1 (10% chance)
-            if (spawn && randomValue <= 0.1f) {
+            if (spawn && randomValue <= 0.05f) {
                 pipes = Instantiate(pipePrefabBubble, transform.position, Quaternion.identity);
             }
             // If spawn is true and the random value is greater than 0.1 but less than or equal to 0.3 (20% chance)
-            else if (spawn && randomValue > 0.1f && randomValue <= 0.3f) {
+            else if (spawn && randomValue > 0.05f && randomValue <= 0.15f) {
                 pipes = Instantiate(pipePrefabGravity, transform.position, Quaternion.identity);
+            }
+            else if (spawn && randomValue > 0.15f && randomValue <= 0.2f) {
+                pipes = Instantiate(pipePrefabShrink, transform.position, Quaternion.identity);
             }
             else {
                 pipes = Instantiate(pipePrefabNormal, transform.position, Quaternion.identity);
