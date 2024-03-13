@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -20,6 +21,7 @@ public class TitleScreenUI : MonoBehaviour
     Button Hard;
     
     Button AiEasy;
+    Button AiHard;
 
 
     private void Awake() {
@@ -30,10 +32,12 @@ public class TitleScreenUI : MonoBehaviour
         Easy = transform.Find("Easy").GetComponent<Button>();
         Hard = transform.Find("Hard").GetComponent<Button>();
         AiEasy = transform.Find("AiEasy").GetComponent<Button>();
+        AiHard = transform.Find("AiHard").GetComponent<Button>();
 
         Easy.onClick.AddListener(EasyClicked);
         Hard.onClick.AddListener(HardClicked);
         AiEasy.onClick.AddListener(AiEasyClicked);
+        AiHard.onClick.AddListener(AiHardClicked);
     }
 
     void Start() {
@@ -61,6 +65,11 @@ public class TitleScreenUI : MonoBehaviour
 
     void AiEasyClicked() {
         Debug.Log("Enter AI Easy game");
-        GameManager.instance.StartAiEastMode();
+        GameManager.instance.StartAiEasyMode();
+    }
+
+    private void AiHardClicked() {
+        Debug.Log("Enter AI Hard game");
+        GameManager.instance.StartAiHardMode();
     }
 }

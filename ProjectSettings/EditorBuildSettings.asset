@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FlapAI/BaseGame/Scenes/AiMode.unity
     guid: e32201631936e724fa08f2c478a4a2c1
+  - enabled: 1
+    path: Assets/FlapAI/BaseGame/Scenes/AiHardMode.unity
+    guid: 896349ab2e14b674ba59278bea5cae3a
   m_configObjects: {}

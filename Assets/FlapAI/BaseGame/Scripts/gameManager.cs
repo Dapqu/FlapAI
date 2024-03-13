@@ -63,9 +63,15 @@ public class GameManager : MonoBehaviour
       Score = 0;
    }
 
-   public void StartAiEastMode() {
+   public void StartAiEasyMode() {
       state = States.EnterGame;
       SceneManager.LoadScene("FlapAI/BaseGame/Scenes/AiMode");
+      Score = 0;
+   }
+
+   public void StartAiHardMode() {
+      state = States.EnterGame;
+      SceneManager.LoadScene("FlapAI/BaseGame/Scenes/AiHardMode");
       Score = 0;
    }
 

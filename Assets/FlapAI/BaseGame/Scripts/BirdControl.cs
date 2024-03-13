@@ -14,6 +14,9 @@ public class Player : MonoBehaviour
 
     private Boolean hasBubble = false;
 
+    private Vector3 ogScale;
+    private Boolean isShrunk = false;
+
     private float tilt = 15f;
     private float strength = 5f;
     private float floatingDegrees = 0f;
@@ -29,6 +32,7 @@ public class Player : MonoBehaviour
         birdRigidbody = GetComponent<Rigidbody2D>();
         animator = sprite.GetComponent<Animator>();
         bubble = transform.Find("Bubble").GetComponent<SpriteRenderer>();
+        ogScale = transform.localScale;
     }
 
     public void Jump() {
@@ -122,13 +126,32 @@ public class Player : MonoBehaviour
             hasBubble = true;
             StartCoroutine(FadeInBubble());
         }
+        else if (other.CompareTag("shrinkScoring")) {
+            GameManager.instance.IncreaseScore();
+            Shrink();
+        }
         else if (other.CompareTag("collectable")) {
             GameManager.instance.IncreaseScore();
             Destroy(other.gameObject);
         }
     }
 
-    IEnumerator FadeInBubble() {
+    private void Shrink(){
+        if (!isShrunk) {
+            StartCoroutine(ShrinkAndRestore());
+        }
+    }
+
+    private IEnumerator ShrinkAndRestore()
+    {
+        isShrunk = true;
+        transform.localScale = ogScale * 0.5f; // Shrink the player to 50% of original size
+        yield return new WaitForSeconds(10); // Wait for 10 seconds
+        transform.localScale = ogScale; // Restore the original size
+        isShrunk = false;
+    }
+
+    private IEnumerator FadeInBubble() {
         // Gradually increase the alpha value
         while (bubble.color.a < 0.8f) {
             float newAlpha = Mathf.MoveTowards(bubble.color.a, 1f, alphaIncreaseSpeed * Time.deltaTime);
