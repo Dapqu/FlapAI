@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/FlapAI/BaseGame/Scenes/StartScene.unity
     guid: b2008a04acd6b7847bb7c355a8a75446
-  - enabled: 0
+  - enabled: 1
     path: Assets/FlapAI/BaseGame/Scenes/mainGame.unity
     guid: 942a10c4669984f44a1e174579642ac3
-  - enabled: 0
+  - enabled: 1
     path: Assets/FlapAI/BaseGame/Scenes/hardGame.unity
     guid: d8e922f0dc5df6f48977db852a3eeed5
   - enabled: 1

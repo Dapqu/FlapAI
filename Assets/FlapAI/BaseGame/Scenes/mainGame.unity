@@ -354,7 +354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 882752530}
   - component: {fileID: 882752529}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TopCollision
   m_TagString: obstacle
   m_Icon: {fileID: 0}
