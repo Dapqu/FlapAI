@@ -7,7 +7,7 @@ public class TrainingPipes : MonoBehaviour
     private float speed = 2.4f;
 
     // The left edge beyond which the pipes are destroyed
-    private float leftEdge = -3.2f;
+    // private float leftEdge = -3.2f;
 
     private void Update() {
         // Check if the game state is not GameOver before moving the pipes
