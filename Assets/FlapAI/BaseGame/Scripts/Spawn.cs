@@ -24,9 +24,13 @@ public class Spawn : MonoBehaviour
     // The left edge beyond which the pipes are destroyed
     private float leftEdge = -3.2f;
 
-    //Queue to store pipes
+    // Queue to store pipes
     Queue<GameObject> pipes = new Queue<GameObject>();
     GameObject hanging_pipe = null;
+
+    // Queue to store collectables (coins)
+    Queue<GameObject> coins = new Queue<GameObject>();
+    GameObject hanging_coin = null;
 
 
     private void OnEnable() {
@@ -65,15 +69,18 @@ public class Spawn : MonoBehaviour
             pipe.transform.position += Vector3.up * Random.Range(minHeight, maxHeight);
 
             if (spawn) {
-                GameObject coins = Instantiate(coinPrefab, new Vector3(transform.position.x + 1.8f, transform.position.y, transform.position.z), Quaternion.identity);
-                coins.transform.position += Vector3.up * Random.Range(minCoinHeight, maxCoinHeight);
+                GameObject coin = Instantiate(coinPrefab, new Vector3(transform.position.x + 1.8f, transform.position.y, transform.position.z), Quaternion.identity);
+                coin.transform.position += Vector3.up * Random.Range(minCoinHeight, maxCoinHeight);
+                coins.Enqueue(coin);
             }
+
             pipes.Enqueue(pipe);
 
         }
     }
 
     private void Update() {
+        // PIPE
         if (pipes.Count > 0 && pipes.Peek().transform.position.x < -1.3f) {
             hanging_pipe = pipes.Peek();
             pipes.Dequeue();
@@ -81,6 +88,16 @@ public class Spawn : MonoBehaviour
         if (hanging_pipe != null && hanging_pipe.transform.position.x < leftEdge) {
             Destroy(hanging_pipe);
             hanging_pipe = null;
+        }
+
+        // COIN
+        if (coins.Count > 0 && coins.Peek().transform.position.x < -1.3f) {
+            hanging_coin = coins.Peek();
+            coins.Dequeue();
+        }
+        if (hanging_coin != null && hanging_coin.transform.position.x < leftEdge) {
+            Destroy(hanging_coin);
+            hanging_coin = null;
         }
     }
 
@@ -91,7 +108,15 @@ public class Spawn : MonoBehaviour
             return transform.position;
     }
 
+    public Vector3 GetClosestCoinPos() {
+        if (coins.Count > 0)
+            return coins.Peek().transform.position;
+        else
+            return transform.position;
+    }
+
     public void Reset() {
+        // PIPE
         foreach (GameObject obj in pipes) {
             Destroy(obj);
         }
@@ -100,5 +125,15 @@ public class Spawn : MonoBehaviour
             hanging_pipe = null;
         }
         pipes.Clear();
+
+        // COIN
+        foreach (GameObject obj in coins) {
+            Destroy(obj);
+        }
+        if (hanging_coin != null) {
+            Destroy(hanging_coin);
+            hanging_pipe = null;
+        }
+        coins.Clear();
     }
 }

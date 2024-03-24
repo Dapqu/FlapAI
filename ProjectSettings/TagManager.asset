@@ -13,6 +13,9 @@ TagManager:
   - gravityScoring
   - bubbleScoring
   - shrinkScoring
+  - obstacle_training
+  - ground_training
+  - collectable_training
   layers:
   - Default
   - TransparentFX

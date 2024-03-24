@@ -10,11 +10,15 @@ public class BulletSpawner : MonoBehaviour
     void Update() {
         // Check if the space bar is pressed and enough time has passed since the last shot
         if (Input.GetKeyDown(KeyCode.Space) && (GameManager.instance.state != GameManager.States.GameOver) && CanShoot()) {
+            Shoot();
+        }
+    }
+
+    public void Shoot() {
             SpawnBullet();
 
             // Update the last shoot time
             lastShootTime = Time.time;
-        }
     }
 
     private void SpawnBullet() {

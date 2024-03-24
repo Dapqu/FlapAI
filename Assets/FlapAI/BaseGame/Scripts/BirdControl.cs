@@ -12,13 +12,13 @@ public class Player : MonoBehaviour
     [SerializeField] private SpriteRenderer bubble;
     private Transform sprite;
 
-    private Boolean hasBubble = false;
+    public Boolean hasBubble = false;
 
-    private Vector3 ogScale;
+    public Vector3 ogScale;
     private Boolean isShrunk = false;
 
     private float tilt = 15f;
-    private float strength = 5f;
+    public float strength = 5f;
     private float floatingDegrees = 0f;
     private float alphaIncreaseSpeed = 1f;
 
@@ -130,9 +130,10 @@ public class Player : MonoBehaviour
             GameManager.instance.IncreaseScore();
             Shrink();
         }
-        else if (other.CompareTag("collectable")) {
+        else if (other.CompareTag("collectable") || other.CompareTag("collectable_training")) {
             GameManager.instance.IncreaseScore();
-            Destroy(other.gameObject);
+            // other.gameObject.SetActive(false);
+            other.GetComponent<Renderer>().enabled = false;
         }
     }
 
