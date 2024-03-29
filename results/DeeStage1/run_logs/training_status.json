@@ -1,0 +1,47 @@
+{
+    "Curriculum_1": {
+        "checkpoints": [
+            {
+                "steps": 499895,
+                "file_path": "results\\DeeStage1\\Curriculum_1\\Curriculum_1-499895.onnx",
+                "reward": 0.0,
+                "creation_time": 1711661839.6154637,
+                "auxillary_file_paths": [
+                    "results\\DeeStage1\\Curriculum_1\\Curriculum_1-499895.pt"
+                ]
+            },
+            {
+                "steps": 999980,
+                "file_path": "results\\DeeStage1\\Curriculum_1\\Curriculum_1-999980.onnx",
+                "reward": 0.0,
+                "creation_time": 1711664081.0428789,
+                "auxillary_file_paths": [
+                    "results\\DeeStage1\\Curriculum_1\\Curriculum_1-999980.pt"
+                ]
+            },
+            {
+                "steps": 1274693,
+                "file_path": "results\\DeeStage1\\Curriculum_1\\Curriculum_1-1274693.onnx",
+                "reward": 0.0,
+                "creation_time": 1711665553.283776,
+                "auxillary_file_paths": [
+                    "results\\DeeStage1\\Curriculum_1\\Curriculum_1-1274693.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1274693,
+            "file_path": "results\\DeeStage1\\Curriculum_1.onnx",
+            "reward": 0.0,
+            "creation_time": 1711665553.283776,
+            "auxillary_file_paths": [
+                "results\\DeeStage1\\Curriculum_1\\Curriculum_1-1274693.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "2.2.0+cpu"
+    }
+}
