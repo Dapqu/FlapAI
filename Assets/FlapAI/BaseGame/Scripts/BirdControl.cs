@@ -101,13 +101,13 @@ public class Player : MonoBehaviour
             }
             else {
                 animator.SetBool("Dead", true);
-                GameManager.instance.GameOver();
+                //GameManager.instance.GameOver();
             }
         } 
         else if (other.CompareTag("ground")) {
-            Debug.Log("Hit!!!");
+            //Debug.Log("Hit!!!");
             animator.SetBool("Dead", true);
-            GameManager.instance.GameOver();
+            //GameManager.instance.GameOver();
         }
         else if(other.CompareTag("scoring")) {
             GameManager.instance.IncreaseScore();

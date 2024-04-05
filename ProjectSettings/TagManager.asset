@@ -13,6 +13,7 @@ TagManager:
   - gravityScoring
   - bubbleScoring
   - shrinkScoring
+  - Pipe
   layers:
   - Default
   - TransparentFX

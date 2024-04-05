@@ -358,6 +358,8 @@ GameObject:
   - component: {fileID: 249675454}
   - component: {fileID: 249675455}
   - component: {fileID: 249675458}
+  - component: {fileID: 249675459}
+  - component: {fileID: 249675460}
   m_Layer: 6
   m_Name: player
   m_TagString: Player
@@ -439,7 +441,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c73c6309c31c7db4894ee18115fb7fe2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bubble: {fileID: 0}
   rain: {fileID: 0}
 --- !u!212 &249675456
 SpriteRenderer:
@@ -530,6 +531,34 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &249675459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249675452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c30012ceeffbb247aa956d76c656d69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  birdTransform: {fileID: 249675457}
+--- !u!114 &249675460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249675452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 770edcc6798fbea42982ba63d435dcd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceCalculator: {fileID: 249675459}
+  strength: 5
+  decisionInterval: 0.3
 --- !u!1 &1507934420
 GameObject:
   m_ObjectHideFlags: 0

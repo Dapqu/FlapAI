@@ -1,0 +1,6143 @@
+{
+    "entries": [
+        {
+            "distX": 0,
+            "distYTop": 0,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 0.1833144873380661
+        },
+        {
+            "distX": 0,
+            "distYTop": 0,
+            "distYBottom": 0,
+            "action": 0,
+            "value": 9.89163875579834
+        },
+        {
+            "distX": 18,
+            "distYTop": -13,
+            "distYBottom": 6,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 17,
+            "distYTop": -12,
+            "distYBottom": 6,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 17,
+            "distYTop": -12,
+            "distYBottom": 6,
+            "action": 1,
+            "value": 1.1887500286102296
+        },
+        {
+            "distX": 17,
+            "distYTop": -12,
+            "distYBottom": 5,
+            "action": 0,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 17,
+            "distYTop": -12,
+            "distYBottom": 5,
+            "action": 1,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 17,
+            "distYTop": -11,
+            "distYBottom": 5,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 16,
+            "distYTop": -11,
+            "distYBottom": 4,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 16,
+            "distYTop": -10,
+            "distYBottom": 4,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 16,
+            "distYTop": -10,
+            "distYBottom": 4,
+            "action": 0,
+            "value": 2.1315536499023439
+        },
+        {
+            "distX": 16,
+            "distYTop": -10,
+            "distYBottom": 3,
+            "action": 0,
+            "value": 2.262190580368042
+        },
+        {
+            "distX": 16,
+            "distYTop": -9,
+            "distYBottom": 3,
+            "action": 0,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 16,
+            "distYTop": -9,
+            "distYBottom": 2,
+            "action": 0,
+            "value": 1.5164999961853028
+        },
+        {
+            "distX": 15,
+            "distYTop": -9,
+            "distYBottom": 2,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 15,
+            "distYTop": -9,
+            "distYBottom": 2,
+            "action": 0,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 15,
+            "distYTop": -8,
+            "distYBottom": 2,
+            "action": 1,
+            "value": 1.5164999961853028
+        },
+        {
+            "distX": 15,
+            "distYTop": -8,
+            "distYBottom": 1,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 15,
+            "distYTop": -7,
+            "distYBottom": 1,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 15,
+            "distYTop": -7,
+            "distYBottom": 1,
+            "action": 0,
+            "value": 1.1887500286102296
+        },
+        {
+            "distX": 14,
+            "distYTop": -7,
+            "distYBottom": 1,
+            "action": 1,
+            "value": 2.649080991744995
+        },
+        {
+            "distX": 14,
+            "distYTop": -7,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 1.5164999961853028
+        },
+        {
+            "distX": 14,
+            "distYTop": -6,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 3.978010416030884
+        },
+        {
+            "distX": 14,
+            "distYTop": -6,
+            "distYBottom": 0,
+            "action": 0,
+            "value": 2.231940269470215
+        },
+        {
+            "distX": 14,
+            "distYTop": -6,
+            "distYBottom": -1,
+            "action": 0,
+            "value": 2.1790390014648439
+        },
+        {
+            "distX": 14,
+            "distYTop": -6,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 1.629312515258789
+        },
+        {
+            "distX": 13,
+            "distYTop": -5,
+            "distYBottom": -2,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 13,
+            "distYTop": -4,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 3.0166268348693849
+        },
+        {
+            "distX": 13,
+            "distYTop": -4,
+            "distYBottom": -2,
+            "action": 0,
+            "value": 1.3347218036651612
+        },
+        {
+            "distX": 13,
+            "distYTop": -4,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 13,
+            "distYTop": -4,
+            "distYBottom": -3,
+            "action": 0,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 13,
+            "distYTop": -3,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 12,
+            "distYTop": -3,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 12,
+            "distYTop": -3,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 1.0762499570846558
+        },
+        {
+            "distX": 12,
+            "distYTop": -3,
+            "distYBottom": -4,
+            "action": 0,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 12,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 12,
+            "distYTop": -2,
+            "distYBottom": -5,
+            "action": 1,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 12,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 11,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 1,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 11,
+            "distYTop": -1,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 11,
+            "distYTop": 0,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 2.649080991744995
+        },
+        {
+            "distX": 11,
+            "distYTop": 0,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 10,
+            "distYTop": 1,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 10,
+            "distYTop": 1,
+            "distYBottom": -8,
+            "action": 1,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 10,
+            "distYTop": 1,
+            "distYBottom": -8,
+            "action": 0,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 10,
+            "distYTop": 2,
+            "distYBottom": -8,
+            "action": 0,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 10,
+            "distYTop": 2,
+            "distYBottom": -9,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 10,
+            "distYTop": 2,
+            "distYBottom": -9,
+            "action": 0,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 9,
+            "distYTop": 2,
+            "distYBottom": -9,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 9,
+            "distYTop": 3,
+            "distYBottom": -9,
+            "action": 1,
+            "value": 3.365795373916626
+        },
+        {
+            "distX": 9,
+            "distYTop": 3,
+            "distYBottom": -10,
+            "action": 0,
+            "value": 1.9406750202178956
+        },
+        {
+            "distX": 9,
+            "distYTop": 3,
+            "distYBottom": -10,
+            "action": 1,
+            "value": 1.1418124437332154
+        },
+        {
+            "distX": 9,
+            "distYTop": 4,
+            "distYBottom": -10,
+            "action": 0,
+            "value": 2.803022861480713
+        },
+        {
+            "distX": 18,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 17,
+            "distYTop": -2,
+            "distYBottom": -5,
+            "action": 1,
+            "value": 1.9981247186660767
+        },
+        {
+            "distX": 17,
+            "distYTop": -2,
+            "distYBottom": -5,
+            "action": 0,
+            "value": 3.001863956451416
+        },
+        {
+            "distX": 17,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 0,
+            "value": 3.891416549682617
+        },
+        {
+            "distX": 17,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 1,
+            "value": -55.7017707824707
+        },
+        {
+            "distX": 17,
+            "distYTop": -1,
+            "distYBottom": -6,
+            "action": 0,
+            "value": 3.0651495456695558
+        },
+        {
+            "distX": 17,
+            "distYTop": -1,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 1.8377187252044678
+        },
+        {
+            "distX": 17,
+            "distYTop": 0,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 17,
+            "distYTop": 0,
+            "distYBottom": -6,
+            "action": 0,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 17,
+            "distYTop": 0,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 16,
+            "distYTop": 0,
+            "distYBottom": -7,
+            "action": 0,
+            "value": 3.277107000350952
+        },
+        {
+            "distX": 16,
+            "distYTop": 0,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 3.5428450107574465
+        },
+        {
+            "distX": 16,
+            "distYTop": 1,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 3.0806384086608888
+        },
+        {
+            "distX": 16,
+            "distYTop": 1,
+            "distYBottom": -7,
+            "action": 0,
+            "value": 3.247004747390747
+        },
+        {
+            "distX": 16,
+            "distYTop": 1,
+            "distYBottom": -8,
+            "action": 0,
+            "value": 2.262190580368042
+        },
+        {
+            "distX": 16,
+            "distYTop": 2,
+            "distYBottom": -8,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 16,
+            "distYTop": 2,
+            "distYBottom": -8,
+            "action": 0,
+            "value": 2.4454543590545656
+        },
+        {
+            "distX": 15,
+            "distYTop": 2,
+            "distYBottom": -8,
+            "action": 0,
+            "value": 3.2086849212646486
+        },
+        {
+            "distX": 15,
+            "distYTop": 2,
+            "distYBottom": -9,
+            "action": 0,
+            "value": 3.829491376876831
+        },
+        {
+            "distX": 15,
+            "distYTop": 3,
+            "distYBottom": -9,
+            "action": 1,
+            "value": 2.2342100143432619
+        },
+        {
+            "distX": 15,
+            "distYTop": 3,
+            "distYBottom": -9,
+            "action": 0,
+            "value": -57.026885986328128
+        },
+        {
+            "distX": 15,
+            "distYTop": 3,
+            "distYBottom": -10,
+            "action": 1,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 15,
+            "distYTop": 3,
+            "distYBottom": -10,
+            "action": 0,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 15,
+            "distYTop": 4,
+            "distYBottom": -10,
+            "action": 1,
+            "value": 2.1346559524536135
+        },
+        {
+            "distX": 15,
+            "distYTop": 4,
+            "distYBottom": -10,
+            "action": 0,
+            "value": 1.1887500286102296
+        },
+        {
+            "distX": 14,
+            "distYTop": 4,
+            "distYBottom": -10,
+            "action": 0,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 14,
+            "distYTop": 4,
+            "distYBottom": -11,
+            "action": 1,
+            "value": 2.3436412811279299
+        },
+        {
+            "distX": 14,
+            "distYTop": 5,
+            "distYBottom": -11,
+            "action": 1,
+            "value": 4.3718719482421879
+        },
+        {
+            "distX": 14,
+            "distYTop": 5,
+            "distYBottom": -11,
+            "action": 0,
+            "value": 2.1853466033935549
+        },
+        {
+            "distX": 14,
+            "distYTop": 5,
+            "distYBottom": -12,
+            "action": 1,
+            "value": 2.649080991744995
+        },
+        {
+            "distX": 14,
+            "distYTop": 6,
+            "distYBottom": -12,
+            "action": 0,
+            "value": 1.2849375009536744
+        },
+        {
+            "distX": 14,
+            "distYTop": 6,
+            "distYBottom": -12,
+            "action": 1,
+            "value": 1.1887500286102296
+        },
+        {
+            "distX": 13,
+            "distYTop": 6,
+            "distYBottom": -12,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 13,
+            "distYTop": 6,
+            "distYBottom": -13,
+            "action": 1,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 13,
+            "distYTop": 7,
+            "distYBottom": -13,
+            "action": 0,
+            "value": 3.365795373916626
+        },
+        {
+            "distX": 13,
+            "distYTop": 7,
+            "distYBottom": -14,
+            "action": 0,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 13,
+            "distYTop": 8,
+            "distYBottom": -14,
+            "action": 0,
+            "value": 2.649080991744995
+        },
+        {
+            "distX": 12,
+            "distYTop": 8,
+            "distYBottom": -14,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 12,
+            "distYTop": 8,
+            "distYBottom": -14,
+            "action": 0,
+            "value": 1.1887500286102296
+        },
+        {
+            "distX": 12,
+            "distYTop": 8,
+            "distYBottom": -15,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 12,
+            "distYTop": 9,
+            "distYBottom": -15,
+            "action": 1,
+            "value": 1.483190655708313
+        },
+        {
+            "distX": 12,
+            "distYTop": 9,
+            "distYBottom": -15,
+            "action": 0,
+            "value": 2.4454543590545656
+        },
+        {
+            "distX": 18,
+            "distYTop": -5,
+            "distYBottom": -2,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 18,
+            "distYTop": -5,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 17,
+            "distYTop": -5,
+            "distYBottom": -2,
+            "action": 0,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 17,
+            "distYTop": -4,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 17,
+            "distYTop": -4,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 2.262190580368042
+        },
+        {
+            "distX": 17,
+            "distYTop": -4,
+            "distYBottom": -3,
+            "action": 0,
+            "value": 1.1418124437332154
+        },
+        {
+            "distX": 17,
+            "distYTop": -3,
+            "distYBottom": -3,
+            "action": 0,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 17,
+            "distYTop": -3,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 2.3489997386932375
+        },
+        {
+            "distX": 17,
+            "distYTop": -3,
+            "distYBottom": -4,
+            "action": 0,
+            "value": 1.7383419275283814
+        },
+        {
+            "distX": 17,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 1.0762499570846558
+        },
+        {
+            "distX": 16,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 0,
+            "value": 2.262190580368042
+        },
+        {
+            "distX": 16,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 1.1418124437332154
+        },
+        {
+            "distX": 16,
+            "distYTop": -2,
+            "distYBottom": -5,
+            "action": 1,
+            "value": 1.9406750202178956
+        },
+        {
+            "distX": 16,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 1,
+            "value": 2.649080991744995
+        },
+        {
+            "distX": 16,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 0,
+            "value": 1.3347218036651612
+        },
+        {
+            "distX": 16,
+            "distYTop": -1,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 1.7206906080245972
+        },
+        {
+            "distX": 15,
+            "distYTop": -1,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 15,
+            "distYTop": -1,
+            "distYBottom": -6,
+            "action": 0,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 15,
+            "distYTop": 0,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 15,
+            "distYTop": 0,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 1.5224374532699586
+        },
+        {
+            "distX": 15,
+            "distYTop": 0,
+            "distYBottom": -7,
+            "action": 0,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 15,
+            "distYTop": 1,
+            "distYBottom": -7,
+            "action": 0,
+            "value": 3.43562912940979
+        },
+        {
+            "distX": 15,
+            "distYTop": 1,
+            "distYBottom": -8,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 14,
+            "distYTop": 1,
+            "distYBottom": -8,
+            "action": 0,
+            "value": 1.5164999961853028
+        },
+        {
+            "distX": 14,
+            "distYTop": 2,
+            "distYBottom": -8,
+            "action": 0,
+            "value": 4.431115627288818
+        },
+        {
+            "distX": 14,
+            "distYTop": 2,
+            "distYBottom": -8,
+            "action": 1,
+            "value": 1.6920864582061768
+        },
+        {
+            "distX": 14,
+            "distYTop": 2,
+            "distYBottom": -9,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 14,
+            "distYTop": 2,
+            "distYBottom": -9,
+            "action": 0,
+            "value": 2.245832681655884
+        },
+        {
+            "distX": 14,
+            "distYTop": 3,
+            "distYBottom": -9,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 14,
+            "distYTop": 3,
+            "distYBottom": -9,
+            "action": 0,
+            "value": 2.520728588104248
+        },
+        {
+            "distX": 14,
+            "distYTop": 3,
+            "distYBottom": -10,
+            "action": 0,
+            "value": 3.0166268348693849
+        },
+        {
+            "distX": 13,
+            "distYTop": 3,
+            "distYBottom": -10,
+            "action": 1,
+            "value": 2.262190580368042
+        },
+        {
+            "distX": 13,
+            "distYTop": 4,
+            "distYBottom": -10,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 13,
+            "distYTop": 4,
+            "distYBottom": -10,
+            "action": 0,
+            "value": 1.1418124437332154
+        },
+        {
+            "distX": 13,
+            "distYTop": 4,
+            "distYBottom": -11,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 13,
+            "distYTop": 5,
+            "distYBottom": -11,
+            "action": 1,
+            "value": 3.0166268348693849
+        },
+        {
+            "distX": 13,
+            "distYTop": 5,
+            "distYBottom": -11,
+            "action": 0,
+            "value": 1.6920864582061768
+        },
+        {
+            "distX": 12,
+            "distYTop": 5,
+            "distYBottom": -12,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 12,
+            "distYTop": 6,
+            "distYBottom": -12,
+            "action": 1,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 12,
+            "distYTop": 6,
+            "distYBottom": -12,
+            "action": 0,
+            "value": 1.1418124437332154
+        },
+        {
+            "distX": 12,
+            "distYTop": 6,
+            "distYBottom": -13,
+            "action": 1,
+            "value": 1.0762499570846558
+        },
+        {
+            "distX": 12,
+            "distYTop": 6,
+            "distYBottom": -13,
+            "action": 0,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 18,
+            "distYTop": 0,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 17,
+            "distYTop": 0,
+            "distYBottom": -7,
+            "action": 0,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 17,
+            "distYTop": 1,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 2.262190580368042
+        },
+        {
+            "distX": 17,
+            "distYTop": 1,
+            "distYBottom": -7,
+            "action": 0,
+            "value": 1.9873607158660889
+        },
+        {
+            "distX": 17,
+            "distYTop": 1,
+            "distYBottom": -8,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 17,
+            "distYTop": 1,
+            "distYBottom": -8,
+            "action": 0,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 17,
+            "distYTop": 2,
+            "distYBottom": -8,
+            "action": 1,
+            "value": 2.262190580368042
+        },
+        {
+            "distX": 17,
+            "distYTop": 2,
+            "distYBottom": -9,
+            "action": 0,
+            "value": 1.7206906080245972
+        },
+        {
+            "distX": 17,
+            "distYTop": 2,
+            "distYBottom": -9,
+            "action": 1,
+            "value": 1.1887500286102296
+        },
+        {
+            "distX": 16,
+            "distYTop": 2,
+            "distYBottom": -9,
+            "action": 0,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 16,
+            "distYTop": 2,
+            "distYBottom": -9,
+            "action": 1,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 16,
+            "distYTop": 3,
+            "distYBottom": -9,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 16,
+            "distYTop": 3,
+            "distYBottom": -9,
+            "action": 0,
+            "value": 1.1418124437332154
+        },
+        {
+            "distX": 16,
+            "distYTop": 3,
+            "distYBottom": -10,
+            "action": 0,
+            "value": 1.5224374532699586
+        },
+        {
+            "distX": 16,
+            "distYTop": 3,
+            "distYBottom": -10,
+            "action": 1,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 16,
+            "distYTop": 4,
+            "distYBottom": -10,
+            "action": 0,
+            "value": -56.83615493774414
+        },
+        {
+            "distX": 16,
+            "distYTop": 4,
+            "distYBottom": -11,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 15,
+            "distYTop": 4,
+            "distYBottom": -11,
+            "action": 1,
+            "value": 2.3436412811279299
+        },
+        {
+            "distX": 15,
+            "distYTop": 5,
+            "distYBottom": -11,
+            "action": 1,
+            "value": 2.72645902633667
+        },
+        {
+            "distX": 15,
+            "distYTop": 5,
+            "distYBottom": -11,
+            "action": 0,
+            "value": 1.8040968179702759
+        },
+        {
+            "distX": 15,
+            "distYTop": 5,
+            "distYBottom": -12,
+            "action": 1,
+            "value": 1.5224374532699586
+        },
+        {
+            "distX": 15,
+            "distYTop": 5,
+            "distYBottom": -12,
+            "action": 0,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 15,
+            "distYTop": 6,
+            "distYBottom": -12,
+            "action": 1,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 15,
+            "distYTop": 6,
+            "distYBottom": -13,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 14,
+            "distYTop": 6,
+            "distYBottom": -13,
+            "action": 1,
+            "value": 2.0310912132263185
+        },
+        {
+            "distX": 14,
+            "distYTop": 6,
+            "distYBottom": -13,
+            "action": 0,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 14,
+            "distYTop": 7,
+            "distYBottom": -13,
+            "action": 0,
+            "value": 4.4897356033325199
+        },
+        {
+            "distX": 14,
+            "distYTop": 7,
+            "distYBottom": -13,
+            "action": 1,
+            "value": 2.1853466033935549
+        },
+        {
+            "distX": 14,
+            "distYTop": 7,
+            "distYBottom": -14,
+            "action": 0,
+            "value": 2.262190580368042
+        },
+        {
+            "distX": 14,
+            "distYTop": 8,
+            "distYBottom": -14,
+            "action": 1,
+            "value": 3.43562912940979
+        },
+        {
+            "distX": 14,
+            "distYTop": 8,
+            "distYBottom": -14,
+            "action": 0,
+            "value": 1.3347218036651612
+        },
+        {
+            "distX": 13,
+            "distYTop": 8,
+            "distYBottom": -15,
+            "action": 1,
+            "value": 2.649080991744995
+        },
+        {
+            "distX": 18,
+            "distYTop": 7,
+            "distYBottom": -13,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 17,
+            "distYTop": 7,
+            "distYBottom": -14,
+            "action": 1,
+            "value": 1.8504544496536255
+        },
+        {
+            "distX": 17,
+            "distYTop": 7,
+            "distYBottom": -14,
+            "action": 0,
+            "value": 2.4454543590545656
+        },
+        {
+            "distX": 17,
+            "distYTop": 8,
+            "distYBottom": -14,
+            "action": 1,
+            "value": 1.9406750202178956
+        },
+        {
+            "distX": 17,
+            "distYTop": 8,
+            "distYBottom": -15,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 17,
+            "distYTop": 8,
+            "distYBottom": -15,
+            "action": 0,
+            "value": 2.823181629180908
+        },
+        {
+            "distX": 17,
+            "distYTop": 9,
+            "distYBottom": -15,
+            "action": 1,
+            "value": 2.262190580368042
+        },
+        {
+            "distX": 17,
+            "distYTop": 9,
+            "distYBottom": -15,
+            "action": 0,
+            "value": 3.709550380706787
+        },
+        {
+            "distX": 16,
+            "distYTop": 9,
+            "distYBottom": -16,
+            "action": 0,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 16,
+            "distYTop": 9,
+            "distYBottom": -16,
+            "action": 1,
+            "value": 1.8040968179702759
+        },
+        {
+            "distX": 16,
+            "distYTop": 10,
+            "distYBottom": -16,
+            "action": 0,
+            "value": 4.012629985809326
+        },
+        {
+            "distX": 16,
+            "distYTop": 10,
+            "distYBottom": -16,
+            "action": 1,
+            "value": 1.5179857015609742
+        },
+        {
+            "distX": 18,
+            "distYTop": 8,
+            "distYBottom": -15,
+            "action": 0,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 18,
+            "distYTop": 19,
+            "distYBottom": -25,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 18,
+            "distYTop": -9,
+            "distYBottom": 2,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 18,
+            "distYTop": -9,
+            "distYBottom": 2,
+            "action": 0,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 17,
+            "distYTop": -8,
+            "distYBottom": 2,
+            "action": 1,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 17,
+            "distYTop": -8,
+            "distYBottom": 1,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 17,
+            "distYTop": -7,
+            "distYBottom": 1,
+            "action": 1,
+            "value": 1.2849375009536744
+        },
+        {
+            "distX": 17,
+            "distYTop": -7,
+            "distYBottom": 1,
+            "action": 0,
+            "value": 2.9354476928710939
+        },
+        {
+            "distX": 17,
+            "distYTop": -7,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 17,
+            "distYTop": -7,
+            "distYBottom": 0,
+            "action": 0,
+            "value": 1.1887500286102296
+        },
+        {
+            "distX": 17,
+            "distYTop": -6,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 16,
+            "distYTop": -6,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 16,
+            "distYTop": -6,
+            "distYBottom": 0,
+            "action": 0,
+            "value": 2.3912904262542726
+        },
+        {
+            "distX": 16,
+            "distYTop": -6,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 16,
+            "distYTop": -6,
+            "distYBottom": -1,
+            "action": 0,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 16,
+            "distYTop": -5,
+            "distYBottom": -1,
+            "action": 0,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 16,
+            "distYTop": -5,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 16,
+            "distYTop": -5,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 16,
+            "distYTop": -4,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 15,
+            "distYTop": -4,
+            "distYBottom": -2,
+            "action": 0,
+            "value": 2.262190580368042
+        },
+        {
+            "distX": 15,
+            "distYTop": -4,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 1.1418124437332154
+        },
+        {
+            "distX": 15,
+            "distYTop": -4,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 15,
+            "distYTop": -3,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 4.030023574829102
+        },
+        {
+            "distX": 15,
+            "distYTop": -3,
+            "distYBottom": -3,
+            "action": 0,
+            "value": 2.2367701530456545
+        },
+        {
+            "distX": 15,
+            "distYTop": -3,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 14,
+            "distYTop": -3,
+            "distYBottom": -4,
+            "action": 0,
+            "value": 1.6058000326156617
+        },
+        {
+            "distX": 14,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 2.72645902633667
+        },
+        {
+            "distX": 14,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 0,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 14,
+            "distYTop": -2,
+            "distYBottom": -5,
+            "action": 1,
+            "value": 1.9406750202178956
+        },
+        {
+            "distX": 14,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 14,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 0,
+            "value": 3.911545991897583
+        },
+        {
+            "distX": 14,
+            "distYTop": -1,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 1.9406750202178956
+        },
+        {
+            "distX": 14,
+            "distYTop": -1,
+            "distYBottom": -6,
+            "action": 0,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 13,
+            "distYTop": 0,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 3.0901360511779787
+        },
+        {
+            "distX": 13,
+            "distYTop": 0,
+            "distYBottom": -6,
+            "action": 0,
+            "value": 1.8040968179702759
+        },
+        {
+            "distX": 13,
+            "distYTop": 0,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 13,
+            "distYTop": 0,
+            "distYBottom": -7,
+            "action": 0,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 13,
+            "distYTop": 1,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 2.262190580368042
+        },
+        {
+            "distX": 13,
+            "distYTop": 1,
+            "distYBottom": -8,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 13,
+            "distYTop": 1,
+            "distYBottom": -8,
+            "action": 1,
+            "value": 1.1887500286102296
+        },
+        {
+            "distX": 12,
+            "distYTop": 2,
+            "distYBottom": -8,
+            "action": 1,
+            "value": 3.0166268348693849
+        },
+        {
+            "distX": 12,
+            "distYTop": 2,
+            "distYBottom": -9,
+            "action": 1,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 12,
+            "distYTop": 2,
+            "distYBottom": -9,
+            "action": 0,
+            "value": 1.1418124437332154
+        },
+        {
+            "distX": 12,
+            "distYTop": 3,
+            "distYBottom": -9,
+            "action": 0,
+            "value": 2.5157363414764406
+        },
+        {
+            "distX": 12,
+            "distYTop": 3,
+            "distYBottom": -9,
+            "action": 1,
+            "value": 2.8946921825408937
+        },
+        {
+            "distX": 12,
+            "distYTop": 3,
+            "distYBottom": -10,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 11,
+            "distYTop": 3,
+            "distYBottom": -10,
+            "action": 0,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 11,
+            "distYTop": 4,
+            "distYBottom": -10,
+            "action": 1,
+            "value": 1.0762499570846558
+        },
+        {
+            "distX": 11,
+            "distYTop": 4,
+            "distYBottom": -10,
+            "action": 0,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 11,
+            "distYTop": 4,
+            "distYBottom": -11,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 11,
+            "distYTop": 5,
+            "distYBottom": -11,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 11,
+            "distYTop": 5,
+            "distYBottom": -11,
+            "action": 0,
+            "value": 2.030627965927124
+        },
+        {
+            "distX": 11,
+            "distYTop": 5,
+            "distYBottom": -12,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 11,
+            "distYTop": 5,
+            "distYBottom": -12,
+            "action": 0,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 10,
+            "distYTop": 5,
+            "distYBottom": -12,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 10,
+            "distYTop": 6,
+            "distYBottom": -12,
+            "action": 1,
+            "value": 2.649080991744995
+        },
+        {
+            "distX": 10,
+            "distYTop": 6,
+            "distYBottom": -12,
+            "action": 0,
+            "value": 1.5179857015609742
+        },
+        {
+            "distX": 10,
+            "distYTop": 6,
+            "distYBottom": -13,
+            "action": 0,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 10,
+            "distYTop": 6,
+            "distYBottom": -13,
+            "action": 1,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 10,
+            "distYTop": 7,
+            "distYBottom": -13,
+            "action": 1,
+            "value": 2.72645902633667
+        },
+        {
+            "distX": 10,
+            "distYTop": 7,
+            "distYBottom": -13,
+            "action": 0,
+            "value": 1.9873607158660889
+        },
+        {
+            "distX": 10,
+            "distYTop": 7,
+            "distYBottom": -14,
+            "action": 1,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 9,
+            "distYTop": 8,
+            "distYBottom": -14,
+            "action": 1,
+            "value": 3.697505474090576
+        },
+        {
+            "distX": 9,
+            "distYTop": 8,
+            "distYBottom": -15,
+            "action": 1,
+            "value": 1.9406750202178956
+        },
+        {
+            "distX": 9,
+            "distYTop": 8,
+            "distYBottom": -15,
+            "action": 0,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 9,
+            "distYTop": 9,
+            "distYBottom": -15,
+            "action": 0,
+            "value": 3.5166103839874269
+        },
+        {
+            "distX": 9,
+            "distYTop": 9,
+            "distYBottom": -15,
+            "action": 1,
+            "value": 3.475743293762207
+        },
+        {
+            "distX": 8,
+            "distYTop": 9,
+            "distYBottom": -16,
+            "action": 1,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 18,
+            "distYTop": 5,
+            "distYBottom": -11,
+            "action": 0,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 17,
+            "distYTop": 5,
+            "distYBottom": -12,
+            "action": 1,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 17,
+            "distYTop": 6,
+            "distYBottom": -12,
+            "action": 1,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 17,
+            "distYTop": 6,
+            "distYBottom": -13,
+            "action": 1,
+            "value": 1.9838484525680543
+        },
+        {
+            "distX": 17,
+            "distYTop": 6,
+            "distYBottom": -13,
+            "action": 0,
+            "value": 1.7127187252044678
+        },
+        {
+            "distX": 17,
+            "distYTop": 7,
+            "distYBottom": -13,
+            "action": 1,
+            "value": 3.0901360511779787
+        },
+        {
+            "distX": 17,
+            "distYTop": 7,
+            "distYBottom": -13,
+            "action": 0,
+            "value": 1.3347218036651612
+        },
+        {
+            "distX": 16,
+            "distYTop": 7,
+            "distYBottom": -14,
+            "action": 0,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 16,
+            "distYTop": 7,
+            "distYBottom": -14,
+            "action": 1,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 16,
+            "distYTop": 8,
+            "distYBottom": -14,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 16,
+            "distYTop": 8,
+            "distYBottom": -15,
+            "action": 0,
+            "value": 3.0166268348693849
+        },
+        {
+            "distX": 16,
+            "distYTop": 9,
+            "distYBottom": -15,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 16,
+            "distYTop": 9,
+            "distYBottom": -15,
+            "action": 0,
+            "value": 1.4081250429153443
+        },
+        {
+            "distX": 18,
+            "distYTop": 6,
+            "distYBottom": -12,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 18,
+            "distYTop": 6,
+            "distYBottom": -13,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 18,
+            "distYTop": 2,
+            "distYBottom": -9,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 18,
+            "distYTop": 3,
+            "distYBottom": -9,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 17,
+            "distYTop": 3,
+            "distYBottom": -9,
+            "action": 0,
+            "value": 2.7218587398529054
+        },
+        {
+            "distX": 17,
+            "distYTop": 3,
+            "distYBottom": -9,
+            "action": 1,
+            "value": 2.047846794128418
+        },
+        {
+            "distX": 17,
+            "distYTop": 3,
+            "distYBottom": -10,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 17,
+            "distYTop": 3,
+            "distYBottom": -10,
+            "action": 1,
+            "value": 1.717424988746643
+        },
+        {
+            "distX": 17,
+            "distYTop": 4,
+            "distYBottom": -10,
+            "action": 1,
+            "value": 2.3489997386932375
+        },
+        {
+            "distX": 17,
+            "distYTop": 4,
+            "distYBottom": -10,
+            "action": 0,
+            "value": 1.7383419275283814
+        },
+        {
+            "distX": 17,
+            "distYTop": 4,
+            "distYBottom": -11,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 16,
+            "distYTop": 4,
+            "distYBottom": -11,
+            "action": 0,
+            "value": 1.4081250429153443
+        },
+        {
+            "distX": 16,
+            "distYTop": 5,
+            "distYBottom": -11,
+            "action": 0,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 16,
+            "distYTop": 5,
+            "distYBottom": -11,
+            "action": 1,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 16,
+            "distYTop": 5,
+            "distYBottom": -12,
+            "action": 0,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 16,
+            "distYTop": 5,
+            "distYBottom": -12,
+            "action": 1,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 16,
+            "distYTop": 6,
+            "distYBottom": -12,
+            "action": 1,
+            "value": 2.1269075870513918
+        },
+        {
+            "distX": 16,
+            "distYTop": 6,
+            "distYBottom": -12,
+            "action": 0,
+            "value": 2.4724223613739015
+        },
+        {
+            "distX": 16,
+            "distYTop": 6,
+            "distYBottom": -13,
+            "action": 0,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 15,
+            "distYTop": 6,
+            "distYBottom": -13,
+            "action": 0,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 18,
+            "distYTop": -3,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 17,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 0,
+            "value": 1.7794718742370606
+        },
+        {
+            "distX": 16,
+            "distYTop": -1,
+            "distYBottom": -6,
+            "action": 0,
+            "value": 1.1887500286102296
+        },
+        {
+            "distX": 16,
+            "distYTop": 0,
+            "distYBottom": -6,
+            "action": 0,
+            "value": 1.441925048828125
+        },
+        {
+            "distX": 16,
+            "distYTop": 0,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 1.1887500286102296
+        },
+        {
+            "distX": 16,
+            "distYTop": 1,
+            "distYBottom": -8,
+            "action": 1,
+            "value": 1.3347218036651612
+        },
+        {
+            "distX": 15,
+            "distYTop": 2,
+            "distYBottom": -8,
+            "action": 1,
+            "value": 2.1221067905426027
+        },
+        {
+            "distX": 14,
+            "distYTop": 3,
+            "distYBottom": -10,
+            "action": 1,
+            "value": 2.0888919830322267
+        },
+        {
+            "distX": 18,
+            "distYTop": 10,
+            "distYBottom": -16,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 18,
+            "distYTop": 10,
+            "distYBottom": -16,
+            "action": 0,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 17,
+            "distYTop": 10,
+            "distYBottom": -16,
+            "action": 0,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 17,
+            "distYTop": 10,
+            "distYBottom": -17,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 17,
+            "distYTop": 10,
+            "distYBottom": -17,
+            "action": 1,
+            "value": 1.629312515258789
+        },
+        {
+            "distX": 17,
+            "distYTop": 11,
+            "distYBottom": -17,
+            "action": 0,
+            "value": 1.9406750202178956
+        },
+        {
+            "distX": 17,
+            "distYTop": 11,
+            "distYBottom": -17,
+            "action": 1,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 17,
+            "distYTop": 11,
+            "distYBottom": -18,
+            "action": 1,
+            "value": 3.539522886276245
+        },
+        {
+            "distX": 17,
+            "distYTop": 11,
+            "distYBottom": -18,
+            "action": 0,
+            "value": 1.7127187252044678
+        },
+        {
+            "distX": 16,
+            "distYTop": 12,
+            "distYBottom": -18,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 16,
+            "distYTop": 12,
+            "distYBottom": -18,
+            "action": 0,
+            "value": 1.1887500286102296
+        },
+        {
+            "distX": 16,
+            "distYTop": 12,
+            "distYBottom": -19,
+            "action": 1,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 16,
+            "distYTop": 12,
+            "distYBottom": -19,
+            "action": 0,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 16,
+            "distYTop": 13,
+            "distYBottom": -19,
+            "action": 1,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 16,
+            "distYTop": 13,
+            "distYBottom": -19,
+            "action": 0,
+            "value": 3.0600876808166506
+        },
+        {
+            "distX": 16,
+            "distYTop": 13,
+            "distYBottom": -20,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 16,
+            "distYTop": 13,
+            "distYBottom": -20,
+            "action": 0,
+            "value": 1.1418124437332154
+        },
+        {
+            "distX": 16,
+            "distYTop": 14,
+            "distYBottom": -20,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 15,
+            "distYTop": 14,
+            "distYBottom": -20,
+            "action": 0,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 15,
+            "distYTop": 14,
+            "distYBottom": -21,
+            "action": 1,
+            "value": 3.365795373916626
+        },
+        {
+            "distX": 15,
+            "distYTop": 15,
+            "distYBottom": -21,
+            "action": 1,
+            "value": 2.72645902633667
+        },
+        {
+            "distX": 15,
+            "distYTop": 15,
+            "distYBottom": -22,
+            "action": 1,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 15,
+            "distYTop": 15,
+            "distYBottom": -22,
+            "action": 0,
+            "value": 1.3347218036651612
+        },
+        {
+            "distX": 15,
+            "distYTop": 16,
+            "distYBottom": -22,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 14,
+            "distYTop": 16,
+            "distYBottom": -22,
+            "action": 1,
+            "value": 3.0901360511779787
+        },
+        {
+            "distX": 14,
+            "distYTop": 16,
+            "distYBottom": -22,
+            "action": 0,
+            "value": 1.1418124437332154
+        },
+        {
+            "distX": 14,
+            "distYTop": 16,
+            "distYBottom": -23,
+            "action": 1,
+            "value": 2.262190580368042
+        },
+        {
+            "distX": 14,
+            "distYTop": 17,
+            "distYBottom": -23,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 14,
+            "distYTop": 17,
+            "distYBottom": -23,
+            "action": 0,
+            "value": 1.629312515258789
+        },
+        {
+            "distX": 14,
+            "distYTop": 17,
+            "distYBottom": -24,
+            "action": 1,
+            "value": 1.7206906080245972
+        },
+        {
+            "distX": 14,
+            "distYTop": 17,
+            "distYBottom": -24,
+            "action": 0,
+            "value": 1.1887500286102296
+        },
+        {
+            "distX": 14,
+            "distYTop": 18,
+            "distYBottom": -24,
+            "action": 1,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 13,
+            "distYTop": 18,
+            "distYBottom": -24,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 13,
+            "distYTop": 18,
+            "distYBottom": -24,
+            "action": 1,
+            "value": 2.4454543590545656
+        },
+        {
+            "distX": 13,
+            "distYTop": 18,
+            "distYBottom": -25,
+            "action": 1,
+            "value": 2.262190580368042
+        },
+        {
+            "distX": 13,
+            "distYTop": 19,
+            "distYBottom": -25,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 13,
+            "distYTop": 19,
+            "distYBottom": -25,
+            "action": 0,
+            "value": 1.629312515258789
+        },
+        {
+            "distX": 5,
+            "distYTop": -11,
+            "distYBottom": 4,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 13,
+            "distYTop": -13,
+            "distYBottom": 7,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 8,
+            "distYTop": -11,
+            "distYBottom": 4,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 11,
+            "distYTop": -17,
+            "distYBottom": 11,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 6,
+            "distYTop": -15,
+            "distYBottom": 9,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 13,
+            "distYTop": -6,
+            "distYBottom": 0,
+            "action": 0,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 8,
+            "distYTop": -18,
+            "distYBottom": 12,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 3,
+            "distYTop": -16,
+            "distYBottom": 10,
+            "action": 1,
+            "value": -59.53000259399414
+        },
+        {
+            "distX": 11,
+            "distYTop": -11,
+            "distYBottom": 4,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 7,
+            "distYTop": -8,
+            "distYBottom": 2,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 11,
+            "distYTop": -22,
+            "distYBottom": 15,
+            "action": 0,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 9,
+            "distYTop": -6,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 1.5164999961853028
+        },
+        {
+            "distX": 4,
+            "distYTop": -4,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 2.424234628677368
+        },
+        {
+            "distX": 13,
+            "distYTop": -13,
+            "distYBottom": 6,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 8,
+            "distYTop": -10,
+            "distYBottom": 4,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 3,
+            "distYTop": -8,
+            "distYBottom": 2,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 4,
+            "distYTop": -4,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 13,
+            "distYTop": 6,
+            "distYBottom": -12,
+            "action": 0,
+            "value": 2.2963333129882814
+        },
+        {
+            "distX": 8,
+            "distYTop": -6,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 3,
+            "distYTop": -4,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 2,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 0,
+            "value": 5.299999713897705
+        },
+        {
+            "distX": 13,
+            "distYTop": 3,
+            "distYBottom": -10,
+            "action": 0,
+            "value": 1.3347218036651612
+        },
+        {
+            "distX": 8,
+            "distYTop": -9,
+            "distYBottom": 3,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 17,
+            "distYTop": -3,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 1.1418124437332154
+        },
+        {
+            "distX": 12,
+            "distYTop": -1,
+            "distYBottom": -6,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 7,
+            "distYTop": -13,
+            "distYBottom": 7,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 13,
+            "distYTop": -11,
+            "distYBottom": 5,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 8,
+            "distYTop": -9,
+            "distYBottom": 2,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 3,
+            "distYTop": -7,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": -4,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 14.75
+        },
+        {
+            "distX": 6,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 3,
+            "distYTop": 3,
+            "distYBottom": -9,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 13,
+            "distYTop": -23,
+            "distYBottom": 16,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 8,
+            "distYTop": -20,
+            "distYBottom": 14,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 3,
+            "distYTop": -18,
+            "distYBottom": 12,
+            "action": 1,
+            "value": -19.524999618530275
+        },
+        {
+            "distX": 9,
+            "distYTop": -19,
+            "distYBottom": 12,
+            "action": 0,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 9,
+            "distYTop": -11,
+            "distYBottom": 5,
+            "action": 0,
+            "value": -6.8859992027282719
+        },
+        {
+            "distX": 14,
+            "distYTop": -2,
+            "distYBottom": -5,
+            "action": 0,
+            "value": 1.1418124437332154
+        },
+        {
+            "distX": 9,
+            "distYTop": -14,
+            "distYBottom": 8,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 5,
+            "distYTop": 10,
+            "distYBottom": -17,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 9,
+            "distYTop": 3,
+            "distYBottom": -9,
+            "action": 0,
+            "value": 2.5381295680999758
+        },
+        {
+            "distX": 4,
+            "distYTop": -9,
+            "distYBottom": 3,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 9,
+            "distYTop": -5,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 4,
+            "distYTop": -3,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 13,
+            "distYTop": -20,
+            "distYBottom": 14,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 9,
+            "distYTop": -18,
+            "distYBottom": 11,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 4,
+            "distYTop": -15,
+            "distYBottom": 9,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 8,
+            "distYTop": -5,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 14,
+            "distYTop": -16,
+            "distYBottom": 10,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 9,
+            "distYTop": -14,
+            "distYBottom": 7,
+            "action": 1,
+            "value": 2.803022861480713
+        },
+        {
+            "distX": 4,
+            "distYTop": -11,
+            "distYBottom": 5,
+            "action": 0,
+            "value": -58.09602355957031
+        },
+        {
+            "distX": 9,
+            "distYTop": 7,
+            "distYBottom": -13,
+            "action": 1,
+            "value": 2.803022861480713
+        },
+        {
+            "distX": 4,
+            "distYTop": 9,
+            "distYBottom": -16,
+            "action": 1,
+            "value": 1.5164999961853028
+        },
+        {
+            "distX": 13,
+            "distYTop": -5,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 1.1887500286102296
+        },
+        {
+            "distX": 8,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 3,
+            "distYTop": 0,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 4,
+            "distYTop": 9,
+            "distYBottom": -15,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 9,
+            "distYTop": -11,
+            "distYBottom": 4,
+            "action": 0,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 14,
+            "distYTop": -19,
+            "distYBottom": 13,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 9,
+            "distYTop": -17,
+            "distYBottom": 10,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 5,
+            "distYTop": -14,
+            "distYBottom": 8,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 14,
+            "distYTop": -16,
+            "distYBottom": 9,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 14,
+            "distYTop": -20,
+            "distYBottom": 14,
+            "action": 0,
+            "value": 1.8549374341964722
+        },
+        {
+            "distX": 13,
+            "distYTop": 5,
+            "distYBottom": -12,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 8,
+            "distYTop": 7,
+            "distYBottom": -14,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 3,
+            "distYTop": 10,
+            "distYBottom": -16,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 8,
+            "distYTop": -2,
+            "distYBottom": -5,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 3,
+            "distYTop": 1,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 14,
+            "distYTop": 0,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 4,
+            "distYTop": -10,
+            "distYBottom": 3,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 3,
+            "distYTop": 0,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 9,
+            "distYTop": 10,
+            "distYBottom": -17,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 4,
+            "distYTop": 12,
+            "distYBottom": -19,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 9,
+            "distYTop": -3,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 4,
+            "distYTop": 0,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 14,
+            "distYTop": -9,
+            "distYBottom": 3,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 10,
+            "distYTop": -7,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 5,
+            "distYTop": -4,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 0,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 0,
+            "value": 5.0
+        },
+        {
+            "distX": 1,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 0,
+            "value": 5.0
+        },
+        {
+            "distX": 14,
+            "distYTop": -22,
+            "distYBottom": 15,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 9,
+            "distYTop": -10,
+            "distYBottom": 3,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 4,
+            "distYTop": -7,
+            "distYBottom": 1,
+            "action": 0,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 4,
+            "distYTop": 11,
+            "distYBottom": -17,
+            "action": 1,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 5,
+            "distYTop": -3,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 1.5164999961853028
+        },
+        {
+            "distX": 14,
+            "distYTop": -7,
+            "distYBottom": 0,
+            "action": 0,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 9,
+            "distYTop": -20,
+            "distYBottom": 13,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 4,
+            "distYTop": -17,
+            "distYBottom": 11,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 13,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 8,
+            "distYTop": 1,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 3,
+            "distYTop": 3,
+            "distYBottom": -10,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 5,
+            "distYTop": -5,
+            "distYBottom": -1,
+            "action": 0,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 15,
+            "distYTop": -21,
+            "distYBottom": 15,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 10,
+            "distYTop": -19,
+            "distYBottom": 13,
+            "action": 0,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 13,
+            "distYTop": -2,
+            "distYBottom": -5,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 9,
+            "distYTop": -14,
+            "distYBottom": 8,
+            "action": 1,
+            "value": -19.311250686645509
+        },
+        {
+            "distX": 4,
+            "distYTop": -12,
+            "distYBottom": 5,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 9,
+            "distYTop": -4,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 1.5164999961853028
+        },
+        {
+            "distX": 4,
+            "distYTop": -2,
+            "distYBottom": -5,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 4,
+            "distYTop": -11,
+            "distYBottom": 5,
+            "action": 1,
+            "value": 1.4824250936508179
+        },
+        {
+            "distX": 9,
+            "distYTop": -6,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 2.649080991744995
+        },
+        {
+            "distX": 4,
+            "distYTop": -3,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 2.3436412811279299
+        },
+        {
+            "distX": 14,
+            "distYTop": -5,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 10,
+            "distYTop": -3,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 5,
+            "distYTop": 0,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 14,
+            "distYTop": -8,
+            "distYBottom": 2,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 14,
+            "distYTop": -21,
+            "distYBottom": 15,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 14,
+            "distYTop": -7,
+            "distYBottom": 1,
+            "action": 0,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 9,
+            "distYTop": -21,
+            "distYBottom": 14,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 14,
+            "distYTop": -3,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 1.6058000326156617
+        },
+        {
+            "distX": 9,
+            "distYTop": -1,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 5,
+            "distYTop": 2,
+            "distYBottom": -8,
+            "action": 1,
+            "value": 1.6058000326156617
+        },
+        {
+            "distX": 9,
+            "distYTop": 2,
+            "distYBottom": -8,
+            "action": 1,
+            "value": 1.9406750202178956
+        },
+        {
+            "distX": 4,
+            "distYTop": 4,
+            "distYBottom": -11,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 14,
+            "distYTop": -20,
+            "distYBottom": 13,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 9,
+            "distYTop": -17,
+            "distYBottom": 11,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 4,
+            "distYTop": -15,
+            "distYBottom": 9,
+            "action": 0,
+            "value": 1.1887500286102296
+        },
+        {
+            "distX": 15,
+            "distYTop": 7,
+            "distYBottom": -14,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 10,
+            "distYTop": -5,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 5,
+            "distYTop": -3,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 14,
+            "distYTop": -17,
+            "distYBottom": 11,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 17,
+            "distYTop": -10,
+            "distYBottom": 4,
+            "action": 1,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 12,
+            "distYTop": -8,
+            "distYBottom": 1,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 7,
+            "distYTop": -5,
+            "distYBottom": -1,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 10,
+            "distYTop": -17,
+            "distYBottom": 11,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 5,
+            "distYTop": -15,
+            "distYBottom": 9,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 15,
+            "distYTop": 8,
+            "distYBottom": -14,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 10,
+            "distYTop": 10,
+            "distYBottom": -17,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 5,
+            "distYTop": 13,
+            "distYBottom": -19,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 10,
+            "distYTop": -2,
+            "distYBottom": -5,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 5,
+            "distYTop": -14,
+            "distYBottom": 7,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 9,
+            "distYTop": 1,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 4,
+            "distYTop": 3,
+            "distYBottom": -10,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 14,
+            "distYTop": -18,
+            "distYBottom": 12,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 9,
+            "distYTop": -16,
+            "distYBottom": 9,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 4,
+            "distYTop": -13,
+            "distYBottom": 7,
+            "action": 1,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 4,
+            "distYTop": -4,
+            "distYBottom": -3,
+            "action": 0,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 7,
+            "distYTop": 1,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 8,
+            "distYTop": -1,
+            "distYBottom": -6,
+            "action": 0,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 4,
+            "distYTop": -14,
+            "distYBottom": 7,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 4,
+            "distYTop": 10,
+            "distYBottom": -16,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 13,
+            "distYTop": -7,
+            "distYBottom": 1,
+            "action": 0,
+            "value": -23.530000686645509
+        },
+        {
+            "distX": 8,
+            "distYTop": -20,
+            "distYBottom": 13,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 3,
+            "distYTop": -18,
+            "distYBottom": 11,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 14,
+            "distYTop": -8,
+            "distYBottom": 1,
+            "action": 1,
+            "value": 1.0762499570846558
+        },
+        {
+            "distX": 12,
+            "distYTop": -16,
+            "distYBottom": 10,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 7,
+            "distYTop": -14,
+            "distYBottom": 8,
+            "action": 0,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 9,
+            "distYTop": -3,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 1.0762499570846558
+        },
+        {
+            "distX": 4,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 14,
+            "distYTop": -22,
+            "distYBottom": 16,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 9,
+            "distYTop": -20,
+            "distYBottom": 14,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 4,
+            "distYTop": -18,
+            "distYBottom": 12,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 10,
+            "distYTop": -14,
+            "distYBottom": 7,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 5,
+            "distYTop": -11,
+            "distYBottom": 5,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 4,
+            "distYTop": 4,
+            "distYBottom": -11,
+            "action": 0,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 10,
+            "distYTop": -10,
+            "distYBottom": 4,
+            "action": 1,
+            "value": 1.6058000326156617
+        },
+        {
+            "distX": 5,
+            "distYTop": -8,
+            "distYBottom": 2,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 16,
+            "distYTop": -8,
+            "distYBottom": 2,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 11,
+            "distYTop": -6,
+            "distYBottom": -1,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 6,
+            "distYTop": -18,
+            "distYBottom": 12,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 14,
+            "distYTop": 0,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 4,
+            "distYTop": 5,
+            "distYBottom": -11,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 15,
+            "distYTop": -7,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 10,
+            "distYTop": -4,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 5,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 1.4262499809265137
+        },
+        {
+            "distX": 15,
+            "distYTop": -6,
+            "distYBottom": 0,
+            "action": 0,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 3,
+            "distYTop": -14,
+            "distYBottom": 7,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 9,
+            "distYTop": -5,
+            "distYBottom": -1,
+            "action": 0,
+            "value": 1.5019999742507935
+        },
+        {
+            "distX": 15,
+            "distYTop": -20,
+            "distYBottom": 13,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 10,
+            "distYTop": -18,
+            "distYBottom": 11,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 14,
+            "distYTop": -12,
+            "distYBottom": 5,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 9,
+            "distYTop": -10,
+            "distYBottom": 3,
+            "action": 0,
+            "value": 1.1887500286102296
+        },
+        {
+            "distX": 14,
+            "distYTop": 1,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 4,
+            "distYTop": 5,
+            "distYBottom": -12,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 13,
+            "distYTop": -17,
+            "distYBottom": 11,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 11,
+            "distYTop": 7,
+            "distYBottom": -13,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 6,
+            "distYTop": 9,
+            "distYBottom": -16,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 17,
+            "distYTop": -10,
+            "distYBottom": 3,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 12,
+            "distYTop": -7,
+            "distYBottom": 1,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 12,
+            "distYTop": -14,
+            "distYBottom": 7,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 16,
+            "distYTop": -2,
+            "distYBottom": -5,
+            "action": 0,
+            "value": 1.1418124437332154
+        },
+        {
+            "distX": 11,
+            "distYTop": -14,
+            "distYBottom": 8,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 13,
+            "distYTop": -22,
+            "distYBottom": 16,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 10,
+            "distYTop": -8,
+            "distYBottom": 2,
+            "action": 1,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 5,
+            "distYTop": -6,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 0,
+            "distYTop": -4,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 21.399999618530275
+        },
+        {
+            "distX": 12,
+            "distYTop": -14,
+            "distYBottom": 8,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 10,
+            "distYTop": -6,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 1.6058000326156617
+        },
+        {
+            "distX": 0,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 1,
+            "value": 32.11600112915039
+        },
+        {
+            "distX": 8,
+            "distYTop": 6,
+            "distYBottom": -12,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 2,
+            "distYTop": -5,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 10.0
+        },
+        {
+            "distX": 13,
+            "distYTop": -6,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 9,
+            "distYTop": -3,
+            "distYBottom": -3,
+            "action": 0,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 4,
+            "distYTop": -16,
+            "distYBottom": 9,
+            "action": 1,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 1,
+            "distYTop": -13,
+            "distYBottom": 7,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 16,
+            "distYTop": -11,
+            "distYBottom": 5,
+            "action": 1,
+            "value": -23.530000686645509
+        },
+        {
+            "distX": 12,
+            "distYTop": -9,
+            "distYBottom": 3,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 7,
+            "distYTop": -7,
+            "distYBottom": 0,
+            "action": 0,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 2,
+            "distYTop": -19,
+            "distYBottom": 13,
+            "action": 0,
+            "value": -20.0
+        },
+        {
+            "distX": 11,
+            "distYTop": -23,
+            "distYBottom": 16,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 7,
+            "distYTop": -20,
+            "distYBottom": 14,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 2,
+            "distYTop": -18,
+            "distYBottom": 12,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 17,
+            "distYTop": -14,
+            "distYBottom": 8,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 13,
+            "distYTop": -12,
+            "distYBottom": 6,
+            "action": 1,
+            "value": 1.5164999961853028
+        },
+        {
+            "distX": 8,
+            "distYTop": -10,
+            "distYBottom": 3,
+            "action": 0,
+            "value": 1.6058000326156617
+        },
+        {
+            "distX": 3,
+            "distYTop": -17,
+            "distYBottom": 10,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 14,
+            "distYTop": -10,
+            "distYBottom": 3,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 9,
+            "distYTop": -7,
+            "distYBottom": 1,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 4,
+            "distYTop": -5,
+            "distYBottom": -1,
+            "action": 0,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": -17,
+            "distYBottom": 11,
+            "action": 1,
+            "value": -35.0
+        },
+        {
+            "distX": 9,
+            "distYTop": -5,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 1.5164999961853028
+        },
+        {
+            "distX": 4,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 0,
+            "value": 1.5164999961853028
+        },
+        {
+            "distX": 1,
+            "distYTop": -10,
+            "distYBottom": 4,
+            "action": 1,
+            "value": -30.0
+        },
+        {
+            "distX": 12,
+            "distYTop": -12,
+            "distYBottom": 5,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 7,
+            "distYTop": -14,
+            "distYBottom": 7,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 14,
+            "distYTop": -8,
+            "distYBottom": 1,
+            "action": 0,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 4,
+            "distYTop": -17,
+            "distYBottom": 11,
+            "action": 0,
+            "value": 1.1887500286102296
+        },
+        {
+            "distX": 1,
+            "distYTop": -21,
+            "distYBottom": 14,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 9,
+            "distYTop": -9,
+            "distYBottom": 3,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 4,
+            "distYTop": -7,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 0,
+            "distYTop": -4,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 21.399999618530275
+        },
+        {
+            "distX": 4,
+            "distYTop": 1,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 1,
+            "distYTop": 3,
+            "distYBottom": -10,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 9,
+            "distYTop": 0,
+            "distYBottom": -7,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 4,
+            "distYTop": -12,
+            "distYBottom": 6,
+            "action": 0,
+            "value": -59.53000259399414
+        },
+        {
+            "distX": 1,
+            "distYTop": -20,
+            "distYBottom": 13,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 9,
+            "distYTop": 8,
+            "distYBottom": -14,
+            "action": 0,
+            "value": 2.163877487182617
+        },
+        {
+            "distX": 4,
+            "distYTop": -6,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": -3,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 32.23350143432617
+        },
+        {
+            "distX": 5,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 1,
+            "value": -58.99420166015625
+        },
+        {
+            "distX": 4,
+            "distYTop": -12,
+            "distYBottom": 5,
+            "action": 1,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": -9,
+            "distYBottom": 3,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 15,
+            "distYTop": -16,
+            "distYBottom": 9,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 10,
+            "distYTop": -13,
+            "distYBottom": 7,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 0,
+            "distYTop": -9,
+            "distYBottom": 2,
+            "action": 0,
+            "value": -20.0
+        },
+        {
+            "distX": 9,
+            "distYTop": -7,
+            "distYBottom": 0,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 5,
+            "distYTop": -12,
+            "distYBottom": 5,
+            "action": 0,
+            "value": -20.0
+        },
+        {
+            "distX": 14,
+            "distYTop": -12,
+            "distYBottom": 6,
+            "action": 1,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 10,
+            "distYTop": -10,
+            "distYBottom": 3,
+            "action": 1,
+            "value": -19.524999618530275
+        },
+        {
+            "distX": 5,
+            "distYTop": -8,
+            "distYBottom": 1,
+            "action": 0,
+            "value": 1.6058000326156617
+        },
+        {
+            "distX": 0,
+            "distYTop": -15,
+            "distYBottom": 9,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 10,
+            "distYTop": -23,
+            "distYBottom": 17,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 5,
+            "distYTop": -2,
+            "distYBottom": -5,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 0,
+            "distYTop": 0,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 10.0
+        },
+        {
+            "distX": 7,
+            "distYTop": 8,
+            "distYBottom": -14,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 2,
+            "distYTop": 10,
+            "distYBottom": -17,
+            "action": 0,
+            "value": -20.0
+        },
+        {
+            "distX": 13,
+            "distYTop": -24,
+            "distYBottom": 17,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 15,
+            "distYTop": -25,
+            "distYBottom": 19,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 10,
+            "distYTop": 8,
+            "distYBottom": -14,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 0,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 12.25
+        },
+        {
+            "distX": 5,
+            "distYTop": 0,
+            "distYBottom": -7,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 8,
+            "distYTop": 1,
+            "distYBottom": -8,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 3,
+            "distYTop": 4,
+            "distYBottom": -10,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 1,
+            "distYTop": 6,
+            "distYBottom": -12,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 5,
+            "distYTop": -1,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 0,
+            "distYTop": 2,
+            "distYBottom": -8,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 13,
+            "distYTop": 3,
+            "distYBottom": -9,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 4,
+            "distYTop": -16,
+            "distYBottom": 10,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 9,
+            "distYTop": -9,
+            "distYBottom": 2,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 1,
+            "distYTop": -2,
+            "distYBottom": -5,
+            "action": 1,
+            "value": 32.11600112915039
+        },
+        {
+            "distX": 1,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 0,
+            "value": -41.67000198364258
+        },
+        {
+            "distX": 14,
+            "distYTop": -10,
+            "distYBottom": 3,
+            "action": 0,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 14,
+            "distYTop": -5,
+            "distYBottom": -1,
+            "action": 0,
+            "value": 2.408219337463379
+        },
+        {
+            "distX": 10,
+            "distYTop": -18,
+            "distYBottom": 12,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 5,
+            "distYTop": -16,
+            "distYBottom": 10,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 0,
+            "distYTop": -14,
+            "distYBottom": 7,
+            "action": 0,
+            "value": -20.0
+        },
+        {
+            "distX": 9,
+            "distYTop": -19,
+            "distYBottom": 13,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 0,
+            "distYTop": -25,
+            "distYBottom": 18,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 5,
+            "distYTop": -24,
+            "distYBottom": 18,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 14,
+            "distYTop": -8,
+            "distYBottom": 2,
+            "action": 0,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 9,
+            "distYTop": -11,
+            "distYBottom": 4,
+            "action": 1,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 4,
+            "distYTop": -9,
+            "distYBottom": 2,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 14,
+            "distYTop": -4,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 1.5164999961853028
+        },
+        {
+            "distX": 9,
+            "distYTop": -2,
+            "distYBottom": -5,
+            "action": 1,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 4,
+            "distYTop": 1,
+            "distYBottom": -7,
+            "action": 0,
+            "value": 1.804610013961792
+        },
+        {
+            "distX": 1,
+            "distYTop": -12,
+            "distYBottom": 5,
+            "action": 1,
+            "value": -50.60000228881836
+        },
+        {
+            "distX": 15,
+            "distYTop": -10,
+            "distYBottom": 3,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 10,
+            "distYTop": -7,
+            "distYBottom": 1,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 12,
+            "distYTop": -17,
+            "distYBottom": 11,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 7,
+            "distYTop": -15,
+            "distYBottom": 9,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 2,
+            "distYTop": -13,
+            "distYBottom": 6,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 13,
+            "distYTop": -15,
+            "distYBottom": 9,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 8,
+            "distYTop": -13,
+            "distYBottom": 6,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 1,
+            "distYTop": -7,
+            "distYBottom": 1,
+            "action": 0,
+            "value": 19.5
+        },
+        {
+            "distX": 11,
+            "distYTop": -12,
+            "distYBottom": 6,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 7,
+            "distYTop": -6,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 2,
+            "distYTop": 0,
+            "distYBottom": -6,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 5,
+            "distYTop": 4,
+            "distYBottom": -11,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 0,
+            "distYTop": 7,
+            "distYBottom": -13,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 14,
+            "distYTop": -20,
+            "distYBottom": 14,
+            "action": 1,
+            "value": 1.1418124437332154
+        },
+        {
+            "distX": 1,
+            "distYTop": -5,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 10.0
+        },
+        {
+            "distX": 6,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 0,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": -3,
+            "distYBottom": -3,
+            "action": 0,
+            "value": 14.5
+        },
+        {
+            "distX": 6,
+            "distYTop": -16,
+            "distYBottom": 9,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 4,
+            "distYTop": 5,
+            "distYBottom": -12,
+            "action": 0,
+            "value": 0.7250000238418579
+        },
+        {
+            "distX": 9,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 1.5164999961853028
+        },
+        {
+            "distX": 4,
+            "distYTop": 0,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": 3,
+            "distYBottom": -9,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 12,
+            "distYTop": -19,
+            "distYBottom": 13,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 7,
+            "distYTop": -11,
+            "distYBottom": 5,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 2,
+            "distYTop": -4,
+            "distYBottom": -3,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 3,
+            "distYTop": -8,
+            "distYBottom": 1,
+            "action": 0,
+            "value": 10.0
+        },
+        {
+            "distX": 13,
+            "distYTop": -19,
+            "distYBottom": 13,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 8,
+            "distYTop": -11,
+            "distYBottom": 5,
+            "action": 1,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 3,
+            "distYTop": -3,
+            "distYBottom": -3,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 1,
+            "distYTop": -5,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 10.0
+        },
+        {
+            "distX": 6,
+            "distYTop": -3,
+            "distYBottom": -4,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 3,
+            "distYTop": -6,
+            "distYBottom": 0,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 6,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 3,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 2,
+            "distYTop": 0,
+            "distYBottom": -6,
+            "action": 0,
+            "value": -20.0
+        },
+        {
+            "distX": 14,
+            "distYTop": -10,
+            "distYBottom": 4,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 1,
+            "distYTop": 2,
+            "distYBottom": -8,
+            "action": 1,
+            "value": -30.0
+        },
+        {
+            "distX": 9,
+            "distYTop": -4,
+            "distYBottom": -3,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 0,
+            "distYTop": 0,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 10.0
+        },
+        {
+            "distX": 4,
+            "distYTop": -1,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 9,
+            "distYTop": -4,
+            "distYBottom": -2,
+            "action": 0,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 4,
+            "distYTop": -6,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 1,
+            "distYTop": -4,
+            "distYBottom": -2,
+            "action": 0,
+            "value": 16.637500762939454
+        },
+        {
+            "distX": 6,
+            "distYTop": -16,
+            "distYBottom": 10,
+            "action": 1,
+            "value": -18.19999885559082
+        },
+        {
+            "distX": 9,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 0,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 5,
+            "distYTop": -9,
+            "distYBottom": 3,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 0,
+            "distYTop": -2,
+            "distYBottom": -5,
+            "action": 1,
+            "value": 10.0
+        },
+        {
+            "distX": 13,
+            "distYTop": -21,
+            "distYBottom": 15,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 5,
+            "distYTop": 11,
+            "distYBottom": -17,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 0,
+            "distYTop": 13,
+            "distYBottom": -20,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 13,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 0,
+            "value": 1.1418124437332154
+        },
+        {
+            "distX": 8,
+            "distYTop": -14,
+            "distYBottom": 7,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 17,
+            "distYTop": -23,
+            "distYBottom": 17,
+            "action": 0,
+            "value": -20.0
+        },
+        {
+            "distX": 12,
+            "distYTop": -6,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 7,
+            "distYTop": -3,
+            "distYBottom": -3,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 3,
+            "distYTop": -16,
+            "distYBottom": 9,
+            "action": 0,
+            "value": -20.0
+        },
+        {
+            "distX": 17,
+            "distYTop": -4,
+            "distYBottom": -2,
+            "action": 0,
+            "value": 1.3347218036651612
+        },
+        {
+            "distX": 12,
+            "distYTop": -23,
+            "distYBottom": 16,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 7,
+            "distYTop": -23,
+            "distYBottom": 17,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 9,
+            "distYTop": -23,
+            "distYBottom": 17,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 4,
+            "distYTop": 9,
+            "distYBottom": -16,
+            "action": 0,
+            "value": 0.9387500286102295
+        },
+        {
+            "distX": 1,
+            "distYTop": -4,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 10.0
+        },
+        {
+            "distX": 1,
+            "distYTop": 3,
+            "distYBottom": -9,
+            "action": 0,
+            "value": -20.0
+        },
+        {
+            "distX": 4,
+            "distYTop": -17,
+            "distYBottom": 10,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 9,
+            "distYTop": -10,
+            "distYBottom": 4,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 4,
+            "distYTop": -8,
+            "distYBottom": 1,
+            "action": 1,
+            "value": 0.9750000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": -5,
+            "distYBottom": -1,
+            "action": 0,
+            "value": 34.3484992980957
+        },
+        {
+            "distX": 6,
+            "distYTop": -16,
+            "distYBottom": 10,
+            "action": 0,
+            "value": -20.0
+        },
+        {
+            "distX": 1,
+            "distYTop": -23,
+            "distYBottom": 16,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 12,
+            "distYTop": -9,
+            "distYBottom": 2,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 8,
+            "distYTop": -6,
+            "distYBottom": 0,
+            "action": 0,
+            "value": 1.281499981880188
+        },
+        {
+            "distX": 3,
+            "distYTop": -19,
+            "distYBottom": 12,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 2,
+            "distYTop": -27,
+            "distYBottom": 20,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 14,
+            "distYTop": -14,
+            "distYBottom": 7,
+            "action": 0,
+            "value": 0.5
+        },
+        {
+            "distX": 9,
+            "distYTop": -16,
+            "distYBottom": 10,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 13,
+            "distYTop": -18,
+            "distYBottom": 12,
+            "action": 1,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 9,
+            "distYTop": -16,
+            "distYBottom": 10,
+            "action": 0,
+            "value": 1.0700000524520875
+        },
+        {
+            "distX": 4,
+            "distYTop": -21,
+            "distYBottom": 15,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 17,
+            "distYTop": -15,
+            "distYBottom": 9,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 10,
+            "distYTop": -16,
+            "distYBottom": 9,
+            "action": 1,
+            "value": 0.5
+        },
+        {
+            "distX": 0,
+            "distYTop": -11,
+            "distYBottom": 5,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 13,
+            "distYTop": -25,
+            "distYBottom": 19,
+            "action": 1,
+            "value": -20.0
+        },
+        {
+            "distX": 9,
+            "distYTop": -7,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 0.8700000047683716
+        },
+        {
+            "distX": 6,
+            "distYTop": 0,
+            "distYBottom": -7,
+            "action": 1,
+            "value": -24.0
+        },
+        {
+            "distX": 9,
+            "distYTop": -18,
+            "distYBottom": 12,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 0,
+            "distYTop": -14,
+            "distYBottom": 7,
+            "action": 1,
+            "value": -24.0
+        },
+        {
+            "distX": 17,
+            "distYTop": -25,
+            "distYBottom": 18,
+            "action": 1,
+            "value": -24.0
+        },
+        {
+            "distX": 9,
+            "distYTop": -15,
+            "distYBottom": 9,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": -11,
+            "distYBottom": 4,
+            "action": 1,
+            "value": -24.0
+        },
+        {
+            "distX": 14,
+            "distYTop": -21,
+            "distYBottom": 14,
+            "action": 1,
+            "value": -24.0
+        },
+        {
+            "distX": 1,
+            "distYTop": 11,
+            "distYBottom": -18,
+            "action": 1,
+            "value": -24.0
+        },
+        {
+            "distX": 6,
+            "distYTop": -23,
+            "distYBottom": 17,
+            "action": 1,
+            "value": -24.0
+        },
+        {
+            "distX": 5,
+            "distYTop": 9,
+            "distYBottom": -15,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 0,
+            "distYTop": 11,
+            "distYBottom": -18,
+            "action": 1,
+            "value": -24.0
+        },
+        {
+            "distX": 5,
+            "distYTop": 10,
+            "distYBottom": -16,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 0,
+            "distYTop": 12,
+            "distYBottom": -18,
+            "action": 1,
+            "value": -24.0
+        },
+        {
+            "distX": 16,
+            "distYTop": -9,
+            "distYBottom": 3,
+            "action": 1,
+            "value": 1.6016662120819092
+        },
+        {
+            "distX": 12,
+            "distYTop": -7,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 7,
+            "distYTop": -4,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 3,
+            "distYTop": -14,
+            "distYBottom": 8,
+            "action": 1,
+            "value": 12.0
+        },
+        {
+            "distX": 13,
+            "distYTop": -8,
+            "distYBottom": 1,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 4,
+            "distYTop": -18,
+            "distYBottom": 11,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": -15,
+            "distYBottom": 9,
+            "action": 1,
+            "value": -24.0
+        },
+        {
+            "distX": 16,
+            "distYTop": -13,
+            "distYBottom": 6,
+            "action": 1,
+            "value": -24.0
+        },
+        {
+            "distX": 9,
+            "distYTop": 1,
+            "distYBottom": -8,
+            "action": 0,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": -18,
+            "distYBottom": 12,
+            "action": 1,
+            "value": -24.0
+        },
+        {
+            "distX": 9,
+            "distYTop": -8,
+            "distYBottom": 2,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 13,
+            "distYTop": -1,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 8,
+            "distYTop": 2,
+            "distYBottom": -8,
+            "action": 0,
+            "value": 1.1640000343322755
+        },
+        {
+            "distX": 1,
+            "distYTop": -17,
+            "distYBottom": 11,
+            "action": 0,
+            "value": -24.0
+        },
+        {
+            "distX": 16,
+            "distYTop": -12,
+            "distYBottom": 5,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 11,
+            "distYTop": -9,
+            "distYBottom": 3,
+            "action": 0,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 6,
+            "distYTop": -22,
+            "distYBottom": 15,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": -19,
+            "distYBottom": 13,
+            "action": 1,
+            "value": -24.0
+        },
+        {
+            "distX": 8,
+            "distYTop": -7,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 3,
+            "distYTop": -4,
+            "distYBottom": -2,
+            "action": 0,
+            "value": 0.8700000047683716
+        },
+        {
+            "distX": 2,
+            "distYTop": -12,
+            "distYBottom": 6,
+            "action": 1,
+            "value": -24.0
+        },
+        {
+            "distX": 3,
+            "distYTop": -11,
+            "distYBottom": 5,
+            "action": 1,
+            "value": -59.43600082397461
+        },
+        {
+            "distX": 1,
+            "distYTop": -9,
+            "distYBottom": 2,
+            "action": 1,
+            "value": -24.0
+        },
+        {
+            "distX": 14,
+            "distYTop": -5,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": 2,
+            "distYBottom": -9,
+            "action": 1,
+            "value": -24.0
+        },
+        {
+            "distX": 17,
+            "distYTop": -15,
+            "distYBottom": 8,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 12,
+            "distYTop": -12,
+            "distYBottom": 6,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 14,
+            "distYTop": -4,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": -12,
+            "distYBottom": 6,
+            "action": 1,
+            "value": 12.0
+        },
+        {
+            "distX": 10,
+            "distYTop": -1,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 1.1640000343322755
+        },
+        {
+            "distX": 0,
+            "distYTop": 4,
+            "distYBottom": -10,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 15,
+            "distYTop": -16,
+            "distYBottom": 10,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 10,
+            "distYTop": -14,
+            "distYBottom": 8,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 5,
+            "distYTop": -12,
+            "distYBottom": 5,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 0,
+            "distYTop": -9,
+            "distYBottom": 3,
+            "action": 0,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 5,
+            "distYTop": 1,
+            "distYBottom": -7,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 18,
+            "distYTop": 4,
+            "distYBottom": -10,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 0,
+            "distYTop": 13,
+            "distYBottom": -19,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 0,
+            "distYTop": -12,
+            "distYBottom": 6,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 5,
+            "distYTop": -2,
+            "distYBottom": -5,
+            "action": 0,
+            "value": 1.4178000688552857
+        },
+        {
+            "distX": 0,
+            "distYTop": -15,
+            "distYBottom": 9,
+            "action": 0,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 10,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 5,
+            "distYTop": 1,
+            "distYBottom": -8,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 0,
+            "distYTop": 4,
+            "distYBottom": -10,
+            "action": 0,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 10,
+            "distYTop": -12,
+            "distYBottom": 5,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 5,
+            "distYTop": -10,
+            "distYBottom": 3,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 0,
+            "distYTop": -7,
+            "distYBottom": 1,
+            "action": 1,
+            "value": 12.0
+        },
+        {
+            "distX": 9,
+            "distYTop": -11,
+            "distYBottom": 5,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 5,
+            "distYTop": -9,
+            "distYBottom": 2,
+            "action": 1,
+            "value": 1.1640000343322755
+        },
+        {
+            "distX": 0,
+            "distYTop": -7,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 12.0
+        },
+        {
+            "distX": 15,
+            "distYTop": -10,
+            "distYBottom": 4,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 5,
+            "distYTop": -6,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 0,
+            "distYTop": -3,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 12.0
+        },
+        {
+            "distX": 11,
+            "distYTop": -22,
+            "distYBottom": 16,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 6,
+            "distYTop": -20,
+            "distYBottom": 14,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": -18,
+            "distYBottom": 11,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 9,
+            "distYTop": -18,
+            "distYBottom": 11,
+            "action": 0,
+            "value": 1.932732105255127
+        },
+        {
+            "distX": 4,
+            "distYTop": -24,
+            "distYBottom": 18,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 4,
+            "distYTop": -23,
+            "distYBottom": 16,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 4,
+            "distYTop": -14,
+            "distYBottom": 8,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 0,
+            "distYTop": -14,
+            "distYBottom": 8,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 14,
+            "distYTop": -24,
+            "distYBottom": 17,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 9,
+            "distYTop": -6,
+            "distYBottom": -1,
+            "action": 0,
+            "value": 2.030503749847412
+        },
+        {
+            "distX": 4,
+            "distYTop": 9,
+            "distYBottom": -15,
+            "action": 0,
+            "value": 0.8700000047683716
+        },
+        {
+            "distX": 10,
+            "distYTop": -11,
+            "distYBottom": 5,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 0,
+            "distYTop": -6,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 12.0
+        },
+        {
+            "distX": 4,
+            "distYTop": -23,
+            "distYBottom": 17,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 8,
+            "distYTop": -3,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 3,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": 1,
+            "distYBottom": -8,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 4,
+            "distYTop": -22,
+            "distYBottom": 15,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 12,
+            "distYTop": -4,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 7,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 2,
+            "distYTop": 1,
+            "distYBottom": -7,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 13,
+            "distYTop": -7,
+            "distYBottom": 1,
+            "action": 1,
+            "value": 1.1640000343322755
+        },
+        {
+            "distX": 1,
+            "distYTop": -15,
+            "distYBottom": 8,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 13,
+            "distYTop": 2,
+            "distYBottom": -8,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 4,
+            "distYTop": -9,
+            "distYBottom": 3,
+            "action": 0,
+            "value": 0.8700000047683716
+        },
+        {
+            "distX": 1,
+            "distYTop": -16,
+            "distYBottom": 10,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 17,
+            "distYTop": -11,
+            "distYBottom": 4,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 12,
+            "distYTop": -8,
+            "distYBottom": 2,
+            "action": 0,
+            "value": 1.1640000343322755
+        },
+        {
+            "distX": 7,
+            "distYTop": -21,
+            "distYBottom": 14,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 2,
+            "distYTop": -18,
+            "distYBottom": 12,
+            "action": 0,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 18,
+            "distYTop": -5,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 13,
+            "distYTop": -3,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 8,
+            "distYTop": 0,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 3,
+            "distYTop": 2,
+            "distYBottom": -8,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 2,
+            "distYTop": 4,
+            "distYBottom": -11,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 7,
+            "distYTop": -21,
+            "distYBottom": 15,
+            "action": 0,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 2,
+            "distYTop": -24,
+            "distYBottom": 18,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 1,
+            "distYTop": 4,
+            "distYBottom": -10,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 4,
+            "distYTop": -16,
+            "distYBottom": 10,
+            "action": 0,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 0,
+            "distYTop": -16,
+            "distYBottom": 9,
+            "action": 0,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 14,
+            "distYTop": -14,
+            "distYBottom": 8,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 3,
+            "distYTop": -22,
+            "distYBottom": 16,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 2,
+            "distYTop": -20,
+            "distYBottom": 13,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 15,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 10,
+            "distYTop": 0,
+            "distYBottom": -6,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 5,
+            "distYTop": 2,
+            "distYBottom": -9,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 0,
+            "distYTop": 5,
+            "distYBottom": -11,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 11,
+            "distYTop": -10,
+            "distYBottom": 4,
+            "action": 1,
+            "value": 1.1640000343322755
+        },
+        {
+            "distX": 6,
+            "distYTop": -8,
+            "distYBottom": 1,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 16,
+            "distYTop": -26,
+            "distYBottom": 19,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 11,
+            "distYTop": -18,
+            "distYBottom": 12,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 2,
+            "distYTop": -14,
+            "distYBottom": 7,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 14,
+            "distYTop": -9,
+            "distYBottom": 2,
+            "action": 0,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 10,
+            "distYTop": -22,
+            "distYBottom": 15,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 5,
+            "distYTop": -19,
+            "distYBottom": 13,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 0,
+            "distYTop": -17,
+            "distYBottom": 11,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 10,
+            "distYTop": -6,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 5,
+            "distYTop": -4,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 0,
+            "distYTop": -1,
+            "distYBottom": -5,
+            "action": 0,
+            "value": 29.342641830444337
+        },
+        {
+            "distX": 11,
+            "distYTop": 1,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 6,
+            "distYTop": 3,
+            "distYBottom": -9,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": 5,
+            "distYBottom": -12,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 13,
+            "distYTop": -2,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 8,
+            "distYTop": 0,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 3,
+            "distYTop": 3,
+            "distYBottom": -9,
+            "action": 0,
+            "value": 0.8700000047683716
+        },
+        {
+            "distX": 2,
+            "distYTop": -10,
+            "distYBottom": 3,
+            "action": 1,
+            "value": 12.0
+        },
+        {
+            "distX": 13,
+            "distYTop": 1,
+            "distYBottom": -7,
+            "action": 0,
+            "value": 1.8215829133987427
+        },
+        {
+            "distX": 3,
+            "distYTop": -9,
+            "distYBottom": 3,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 2,
+            "distYTop": -7,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 12.0
+        },
+        {
+            "distX": 12,
+            "distYTop": -20,
+            "distYBottom": 13,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 7,
+            "distYTop": -17,
+            "distYBottom": 11,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 3,
+            "distYTop": -15,
+            "distYBottom": 8,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 0,
+            "distYTop": -9,
+            "distYBottom": 3,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 17,
+            "distYTop": 12,
+            "distYBottom": -18,
+            "action": 1,
+            "value": 1.1640000343322755
+        },
+        {
+            "distX": 14,
+            "distYTop": 15,
+            "distYBottom": -21,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 11,
+            "distYTop": 18,
+            "distYBottom": -24,
+            "action": 1,
+            "value": -84.0
+        },
+        {
+            "distX": 8,
+            "distYTop": -7,
+            "distYBottom": 1,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 5,
+            "distYTop": -4,
+            "distYBottom": -3,
+            "action": 0,
+            "value": 0.9240000247955322
+        },
+        {
+            "distX": 2,
+            "distYTop": -6,
+            "distYBottom": 0,
+            "action": 0,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 17,
+            "distYTop": 5,
+            "distYBottom": -11,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 11,
+            "distYTop": 11,
+            "distYBottom": -18,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 14,
+            "distYTop": 14,
+            "distYBottom": -21,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 17,
+            "distYTop": -5,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 1.1640000343322755
+        },
+        {
+            "distX": 12,
+            "distYTop": 1,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 6,
+            "distYTop": 2,
+            "distYBottom": -8,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 3,
+            "distYTop": 5,
+            "distYBottom": -11,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 0,
+            "distYTop": 8,
+            "distYBottom": -14,
+            "action": 0,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 12,
+            "distYTop": 0,
+            "distYBottom": -7,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 6,
+            "distYTop": 1,
+            "distYBottom": -8,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 3,
+            "distYTop": 4,
+            "distYBottom": -11,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 0,
+            "distYTop": 8,
+            "distYBottom": -14,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 14,
+            "distYTop": 11,
+            "distYBottom": -18,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 11,
+            "distYTop": 14,
+            "distYBottom": -21,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 17,
+            "distYTop": 13,
+            "distYBottom": -19,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 11,
+            "distYTop": 19,
+            "distYBottom": -25,
+            "action": 0,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 12,
+            "distYTop": 18,
+            "distYBottom": -25,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 14,
+            "distYTop": 9,
+            "distYBottom": -15,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 12,
+            "distYTop": 12,
+            "distYBottom": -18,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 9,
+            "distYTop": 15,
+            "distYBottom": -21,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 6,
+            "distYTop": 18,
+            "distYBottom": -25,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 15,
+            "distYTop": -6,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 7,
+            "distYTop": 4,
+            "distYBottom": -10,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 4,
+            "distYTop": 7,
+            "distYBottom": -14,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": 10,
+            "distYBottom": -17,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 16,
+            "distYTop": -12,
+            "distYBottom": 6,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 13,
+            "distYTop": -9,
+            "distYBottom": 3,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 7,
+            "distYTop": -3,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 10,
+            "distYTop": -5,
+            "distYBottom": -2,
+            "action": 0,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 14,
+            "distYTop": 10,
+            "distYBottom": -16,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 11,
+            "distYTop": 13,
+            "distYBottom": -20,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 8,
+            "distYTop": 16,
+            "distYBottom": -23,
+            "action": 0,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 5,
+            "distYTop": 14,
+            "distYBottom": -21,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 11,
+            "distYTop": 1,
+            "distYBottom": -8,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 8,
+            "distYTop": 4,
+            "distYBottom": -11,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 5,
+            "distYTop": 8,
+            "distYBottom": -14,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 2,
+            "distYTop": 11,
+            "distYBottom": -17,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 16,
+            "distYTop": -16,
+            "distYBottom": 10,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 15,
+            "distYTop": -15,
+            "distYBottom": 8,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 12,
+            "distYTop": -11,
+            "distYBottom": 5,
+            "action": 0,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 6,
+            "distYTop": -11,
+            "distYBottom": 4,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 3,
+            "distYTop": -8,
+            "distYBottom": 1,
+            "action": 1,
+            "value": 6.0
+        },
+        {
+            "distX": 6,
+            "distYTop": 5,
+            "distYBottom": -11,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 3,
+            "distYTop": 8,
+            "distYBottom": -15,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 0,
+            "distYTop": 11,
+            "distYBottom": -18,
+            "action": 0,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 16,
+            "distYTop": -16,
+            "distYBottom": 9,
+            "action": 1,
+            "value": -60.000003814697269
+        }
+    ]
+}
