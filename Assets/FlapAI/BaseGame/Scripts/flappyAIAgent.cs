@@ -24,8 +24,17 @@ public class FlappyAIAgent : MonoBehaviour
         birdRigidbody = GetComponent<Rigidbody2D>();
     }
 
+    private void Start()
+    {
+        if (GameManager.instance.state == GameManager.States.EnterGame) {
+            GameManager.instance.EnterGame();
+        }
+    }
+
     private void Update()
     {
+        Time.timeScale = 5;
+
         if (GameManager.instance.state == GameManager.States.ActiveGame)
         {
             // Update the time since the last decision
@@ -59,8 +68,9 @@ public class FlappyAIAgent : MonoBehaviour
 
         if(hitPipe)
         {
-            GameManager.instance.GameOver();
+            Restart();
         }
+
         scored = false;
         
         hitPipe = false;
@@ -137,6 +147,7 @@ public class FlappyAIAgent : MonoBehaviour
         if (other.CompareTag("scoring"))
         {
             scored = true;
+            GameManager.instance.IncreaseScore();
         }
         else if(other.CompareTag("obstacle"))
         {
@@ -148,12 +159,9 @@ public class FlappyAIAgent : MonoBehaviour
         }
     }
 
-    // private void OnCollisionEnter2D(Collision2D collision)
-    // {
-    //     if (collision.collider.CompareTag("obstacle") || collision.collider.CompareTag("ground")) 
-    //     {
-    //         hitPipe = true;
-    //         Debug.Log("bird died");
-    //     }
-    // }
+    private void Restart() 
+    {
+        GameManager.instance.GameOver();
+        GameManager.instance.StartAiEasyMode();
+    }
 }
