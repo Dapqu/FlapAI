@@ -419,6 +419,10 @@ PrefabInstance:
       propertyPath: m_Alpha
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3894118682126946586, guid: d48a1920656b60d4aa17c0c760cad9b1, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4646970853795333368, guid: d48a1920656b60d4aa17c0c760cad9b1, type: 3}
       propertyPath: scoreThresholds.Array.size
       value: 4
@@ -438,6 +442,10 @@ PrefabInstance:
     - target: {fileID: 4646970853795333368, guid: d48a1920656b60d4aa17c0c760cad9b1, type: 3}
       propertyPath: scoreThresholds.Array.data[3]
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 5301923644420522320, guid: d48a1920656b60d4aa17c0c760cad9b1, type: 3}
+      propertyPath: m_Alpha
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7514983173408424781, guid: d48a1920656b60d4aa17c0c760cad9b1, type: 3}
       propertyPath: m_Alpha

@@ -302,7 +302,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c73c6309c31c7db4894ee18115fb7fe2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bubble: {fileID: 0}
   rain: {fileID: 0}
 --- !u!212 &249675456
 SpriteRenderer:
@@ -401,6 +400,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 390874471017914780, guid: d48a1920656b60d4aa17c0c760cad9b1, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2865521043131309626, guid: d48a1920656b60d4aa17c0c760cad9b1, type: 3}
       propertyPath: m_Camera
       value: 
@@ -410,6 +413,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3834738504035594067, guid: d48a1920656b60d4aa17c0c760cad9b1, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3894118682126946586, guid: d48a1920656b60d4aa17c0c760cad9b1, type: 3}
       propertyPath: m_Alpha
       value: 0
       objectReference: {fileID: 0}
@@ -432,6 +439,14 @@ PrefabInstance:
     - target: {fileID: 4646970853795333368, guid: d48a1920656b60d4aa17c0c760cad9b1, type: 3}
       propertyPath: scoreThresholds.Array.data[3]
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5301923644420522320, guid: d48a1920656b60d4aa17c0c760cad9b1, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6621612894569282849, guid: d48a1920656b60d4aa17c0c760cad9b1, type: 3}
+      propertyPath: m_text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7514983173408424781, guid: d48a1920656b60d4aa17c0c760cad9b1, type: 3}
       propertyPath: m_Alpha
@@ -525,7 +540,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3835291455505740651, guid: d48a1920656b60d4aa17c0c760cad9b1, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
