@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour
 
    private int score;
 
+   private int iteration = 0;
+
    private Dictionary<(int, int, int, int), float> qTableDict = new Dictionary<(int, int, int, int), float>();
    public int Score {
       get { return score; }
@@ -38,6 +40,7 @@ public class GameManager : MonoBehaviour
       string json = File.ReadAllText(Application.dataPath + savePath);
       GameData data = JsonUtility.FromJson<GameData>(json);
       highScore = data.highScore;
+      iteration = data.iteration;
    }
 
    public Dictionary<(int, int, int, int), float> LoadQTable()
@@ -77,6 +80,22 @@ public class GameManager : MonoBehaviour
          data = new GameData();
 
       data.highScore = highScore;
+      string newJson = JsonUtility.ToJson(data, true);
+      File.WriteAllText(Application.dataPath + savePath, newJson);
+   }
+
+   public void UpdateIterationCount() {
+      GameData data;
+      // if data already exists, load it to modify score, otherwise create new
+      if (File.Exists(Application.dataPath + savePath))
+      {
+         string oldJson = File.ReadAllText(Application.dataPath + savePath);
+         data = JsonUtility.FromJson<GameData>(oldJson);
+      }
+      else
+         data = new GameData();
+
+      data.iteration = ++iteration;
       string newJson = JsonUtility.ToJson(data, true);
       File.WriteAllText(Application.dataPath + savePath, newJson);
    }
@@ -151,6 +170,7 @@ public class GameManager : MonoBehaviour
 
    public void GameOver()  {
       state = States.GameOver;
+      UpdateIterationCount();
       if (score > highScore) {
          highScore = score;
          SaveScore();

@@ -14,7 +14,7 @@ public class FlappyAIAgent : MonoBehaviour
     private Dictionary<(int, int, int, int), float> qTable = new Dictionary<(int, int, int, int), float>();
     private float learningRate = 0.6f;
     private float discountFactor = 0.9f;
-    private float explorationRate = 0.2f;
+    private float explorationRate = 0.01f;
 
     private bool scored = false;
     private bool hitPipe = false;
