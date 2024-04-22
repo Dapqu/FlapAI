@@ -1,2 +1,2 @@
 # FlapAI
- Flappy Bird 2.0 with AI Agent
+ [All Script](./Assets/FlapAI/BaseGame/Scripts)
