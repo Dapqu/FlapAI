@@ -151,7 +151,7 @@ public class GameManager : MonoBehaviour
 
    public void StartAiEasyMode() {
       state = States.EnterGame;
-      SceneManager.LoadScene("FlapAI/BaseGame/Scenes/easyqlearning");
+      SceneManager.LoadScene("FlapAI/BaseGame/Scenes/AiMode");
       Score = 0;
 
       var qTableDict = LoadQTable();
