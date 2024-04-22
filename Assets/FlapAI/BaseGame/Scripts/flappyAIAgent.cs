@@ -10,11 +10,10 @@ public class FlappyAIAgent : MonoBehaviour
     public float decisionInterval = 0.3f; // Time in seconds between decisions
     private float timeSinceLastDecision = 0f; // Time elapsed since the last decision
 
-
     private Dictionary<(int, int, int, int), float> qTable = new Dictionary<(int, int, int, int), float>();
     private float learningRate = 0.6f;
     private float discountFactor = 0.9f;
-    private float explorationRate = 0.01f;
+    private float explorationRate = 0.5f;
 
     private bool scored = false;
     private bool hitPipe = false;
@@ -130,15 +129,15 @@ public class FlappyAIAgent : MonoBehaviour
         
         if(scored)
         {
-            return 20;
+            return 20f;
         }
 
         if(hitPipe)
         {
-            return -100;
+            return -100f;
         }
         
-        return 1;
+        return 1f;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -149,11 +148,7 @@ public class FlappyAIAgent : MonoBehaviour
             scored = true;
             GameManager.instance.IncreaseScore();
         }
-        else if(other.CompareTag("obstacle"))
-        {
-            hitPipe = true;
-        }
-        else if(other.CompareTag("ground"))
+        else if(other.CompareTag("obstacle") || other.CompareTag("ground"))
         {
             hitPipe = true;
         }
@@ -162,6 +157,6 @@ public class FlappyAIAgent : MonoBehaviour
     private void Restart() 
     {
         GameManager.instance.GameOver();
-        GameManager.instance.StartAiEasyMode();
+        GameManager.instance.StartAiHardMode();
     }
 }

@@ -2262,7 +2262,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: e3ddafb4389a75f4b937cc4fddcb0ad3, type: 3}
   - {fileID: 21300000, guid: 3541d4f20623c7c4dbe9b2ed381a6910, type: 3}
   - {fileID: 21300000, guid: e60f28b6b1d0de3438ec1f5c9e1a9e0a, type: 3}
-  scoreThresholds: 
+  scoreThresholds: 190000003200000064000000c8000000
   nameEntered: {fileID: 7942137064925851074}
 --- !u!114 &6203087887163308229
 MonoBehaviour:

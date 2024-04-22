@@ -3,6 +3,8 @@ using UnityEngine;
 public class CdBarAnimationController : MonoBehaviour
 {
     private Animator animator;
+
+    // Parameters
     private float cooldownTime = 1f;
     private float lastTriggerTime;
 

@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class DistanceCalculator : MonoBehaviour
 {
-    public Transform birdTransform; // Assign your bird's Transform in the inspector
+    // Assign your bird's Transform in the inspector
+    public Transform birdTransform;
 
+    // Properties to store distance information
     public int LastXDistance { get; private set; }
     public int LastYDistanceToTopPipe { get; private set; }
     public int LastYDistanceToBottomPipe { get; private set; }
@@ -25,22 +27,15 @@ public class DistanceCalculator : MonoBehaviour
 
                 if (topPipeSpriteRenderer != null && bottomPipeSpriteRenderer != null)
                 {
+                    // Calculate distances
                     float xDistance = Mathf.Abs(birdTransform.position.x - closestPipe.transform.position.x);
-
-                    // Calculate Y distance to the bottom of the top pipe and Y distance from the top of the bottom pipe
                     float yDistanceToTopPipe = birdTransform.position.y - (topPipeTransform.position.y - topPipeSpriteRenderer.bounds.size.y / 2);
                     float yDistanceToBottomPipe = (bottomPipeTransform.position.y + bottomPipeSpriteRenderer.bounds.size.y / 2) - birdTransform.position.y;
 
-                    
-                    xDistance = (Mathf.Round(xDistance * 4f) / 4f)*4;
-                    yDistanceToTopPipe = (Mathf.Round(yDistanceToTopPipe * 4f) / 4f)*4;
-                    yDistanceToBottomPipe = (Mathf.Round(yDistanceToBottomPipe * 4f) / 4f)*4;
-
-                    LastXDistance = (int)xDistance;
-                    LastYDistanceToTopPipe = (int)yDistanceToTopPipe;
-                    LastYDistanceToBottomPipe = (int)yDistanceToBottomPipe;
-
-                    
+                    // Round distances and update properties
+                    LastXDistance = Mathf.RoundToInt(xDistance);
+                    LastYDistanceToTopPipe = Mathf.RoundToInt(yDistanceToTopPipe);
+                    LastYDistanceToBottomPipe = Mathf.RoundToInt(yDistanceToBottomPipe);
                 }
             }
         }
@@ -77,5 +72,4 @@ public class DistanceCalculator : MonoBehaviour
         
         return (discretizedX, discretizedYTop, discretizedYBottom);
     }
-
 }

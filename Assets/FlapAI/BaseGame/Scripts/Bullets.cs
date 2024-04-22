@@ -1,15 +1,18 @@
 using UnityEngine;
 
 public class Bullets : MonoBehaviour
-{   // The right edge beyond which the bullets are destroyed
+{   
+    // The right edge beyond which the bullets are destroyed
     private float rightEdge = 3.2f;
 
     private void Update() {
-        // Check if the bullet have moved beyond the rightEdge
+        // Check if the bullet has moved beyond the rightEdge
         if (transform.position.x > rightEdge) {
             Destroy(gameObject);
         }
     }
+
+    // Handle collisions
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("target")) {
             Destroy(other.gameObject);

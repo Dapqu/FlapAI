@@ -2,28 +2,37 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class BirdControl : MonoBehaviour
 {
+    // Properties
     public Vector3 position { get; private set; }
 
+    // Components
     private SpriteRenderer spriteRenderer;
     public Rigidbody2D birdRigidbody;
     private Animator animator;
     [SerializeField] private SpriteRenderer bubble;
     private Transform sprite;
 
+    // States
     private Boolean hasBubble = false;
-
-    private Vector3 ogScale;
     private Boolean isShrunk = false;
+    private Boolean isPaused = false;
+    private Boolean crashed = false;
 
+    // Parameters
+    private Vector3 ogScale;
     private float tilt = 15f;
     private float strength = 5f;
     private float floatingDegrees = 0f;
     private float alphaIncreaseSpeed = 1f;
 
+    // References
     [SerializeField] private ParticleSystem rain;
-    private bool isPaused = false;
+    [SerializeField] private AudioClip flapSoundClip;
+    [SerializeField] private AudioClip scoreSoundClip;
+    [SerializeField] private AudioClip crashSoundClip;
+    [SerializeField] private AudioClip dieSoundClip;
 
     private void Awake() {
         // Get references to components in Awake
@@ -35,14 +44,18 @@ public class Player : MonoBehaviour
         ogScale = transform.localScale;
     }
 
+    // Jump method
     public void Jump() {
         birdRigidbody.velocity = Vector2.up * strength;
+        SoundFXManager.Instance.PlaySoundFXClip(flapSoundClip, transform, 1f);
     }
 
     private void Update() {
+        // Current game state
         GameManager.States state = GameManager.instance.state;
         position = transform.position;
 
+        // Reset position on death
         if (animator.GetBool("Dead") && position.y <= -2.6) {
             transform.position = new Vector3(-1.2f, -2.6f, 0);
         }
@@ -50,7 +63,6 @@ public class Player : MonoBehaviour
         // Handle user input
         if (Input.GetMouseButtonDown(0)) {
             // Check game state and perform actions accordingly
-            // Start Game
             if (state == GameManager.States.EnterGame)
                 GameManager.instance.EnterGame();
 
@@ -70,6 +82,7 @@ public class Player : MonoBehaviour
             }
         }
 
+        // Handle bubble visibility
         if (!hasBubble) {
             bubble.color = new Color(bubble.color.r, bubble.color.g, bubble.color.b, 0f);
         }
@@ -78,42 +91,48 @@ public class Player : MonoBehaviour
         CheckDestroyCondition();
     }
 
+    // Apply floating effect
     private void ApplyFloatingEffect() {
-        // Apply a sinusoidal floating effect during EnterGame state
         transform.position = new Vector2(-1.2f, 0f) + (Vector2.up * 0.18f * Mathf.Sin(floatingDegrees * Mathf.PI / 180f));
         floatingDegrees = (floatingDegrees + 400f * Time.deltaTime) % 360f;
     }
 
+    // Adjust bird rotation
     private void AdjustBirdRotation() {
-        // Adjust bird rotation based on velocity and add a lower limit
         float zRotation = Mathf.Clamp((birdRigidbody.velocity.y + 5f) * tilt, -90f, 25f);
         sprite.transform.eulerAngles = new Vector3(sprite.transform.eulerAngles.x, sprite.transform.eulerAngles.y, zRotation);
     }
 
+    // Check destroy condition
     private void CheckDestroyCondition() {
-        // Destroy the player object if it goes below a certain y-position
-        if (transform.position.y < -10f)
-        {
+        if (transform.position.y < -10f) {
             Destroy(gameObject);
         }
     }
 
+    // Handle collisions
     private void OnTriggerEnter2D(Collider2D other) {
-        // Handle collisions with obstacles, ground, and scoring objects
         if (other.CompareTag("obstacle")) {
             if (hasBubble) {
                 StartCoroutine(Invinsible());
             }
             else {
+                if (!crashed) {
+                    SoundFXManager.Instance.PlaySoundFXClip(crashSoundClip, transform, 1f);
+                    crashed = true;
+                }
                 animator.SetBool("Dead", true);
                 GameManager.instance.GameOver();
             }
         } 
         else if (other.CompareTag("ground")) {
+            SoundFXManager.Instance.PlaySoundFXClip(dieSoundClip, transform, 1f);
             animator.SetBool("Dead", true);
             GameManager.instance.GameOver();
+            GameUI.instance.GameOver();
         }
         else if(other.CompareTag("scoring")) {
+            SoundFXManager.Instance.PlaySoundFXClip(scoreSoundClip, transform, 1f);
             GameManager.instance.IncreaseScore();
         }
         else if (other.CompareTag("gravityScoring")) {
@@ -122,7 +141,6 @@ public class Player : MonoBehaviour
         }
         else if (other.CompareTag("bubbleScoring")) {
             GameManager.instance.IncreaseScore();
-            // Add a bubble around player, extra life shield
             hasBubble = true;
             StartCoroutine(FadeInBubble());
         }
@@ -136,23 +154,25 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void Shrink(){
+    // Shrink player
+    private void Shrink() {
         if (!isShrunk) {
             StartCoroutine(ShrinkAndRestore());
         }
     }
 
+    // Coroutine for shrinking and restoring player size
     private IEnumerator ShrinkAndRestore()
     {
         isShrunk = true;
-        transform.localScale = ogScale * 0.5f; // Shrink the player to 50% of original size
-        yield return new WaitForSeconds(10); // Wait for 10 seconds
-        transform.localScale = ogScale; // Restore the original size
+        transform.localScale = ogScale * 0.5f;
+        yield return new WaitForSeconds(10);
+        transform.localScale = ogScale;
         isShrunk = false;
     }
 
+    // Fade in bubble
     private IEnumerator FadeInBubble() {
-        // Gradually increase the alpha value
         while (bubble.color.a < 0.8f) {
             float newAlpha = Mathf.MoveTowards(bubble.color.a, 1f, alphaIncreaseSpeed * Time.deltaTime);
             bubble.color = new Color(bubble.color.r, bubble.color.g, bubble.color.b, newAlpha);
@@ -160,11 +180,11 @@ public class Player : MonoBehaviour
         }
     }
 
+    // Swap gravity values with delay
     private IEnumerator SwapGravityValuesWithDelay() {
         float oldGravity = birdRigidbody.gravityScale;
         float oldStrength = strength;
 
-        // Set gravityScale and strength to 0 during the delay
         birdRigidbody.gravityScale = 0;
         strength = 0;
         birdRigidbody.velocity = new Vector2(birdRigidbody.velocity.x, 0f);
@@ -173,19 +193,17 @@ public class Player : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
 
-        // After the delay, swap gravityScale and strength values
         birdRigidbody.gravityScale = oldGravity * -1;
         strength = oldStrength * -1;
     }
 
-    IEnumerator Invinsible() {        
-        // Disable collision with "obstacle" objects
+    // Make player invincible temporarily
+    private IEnumerator Invinsible() {        
         Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Obstacle"), true);
 
         hasBubble = false;
         bubble.color = new Color(bubble.color.r, bubble.color.g, bubble.color.b, 0f);
 
-        // Blink the sprite for 2 seconds
         float blinkDuration = 2f;
         float blinkInterval = 0.2f;
 
@@ -195,20 +213,17 @@ public class Player : MonoBehaviour
             blinkDuration -= blinkInterval;
         }
 
-        // Ensure the sprite is visible after blinking
         spriteRenderer.enabled = true;
 
-        // Restore the original collision state
         Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Obstacle"), false);
     }
 
+    // Toggle pause state
     public void TogglePause() {
         if (isPaused) {
-            // Resume particle emission
             rain.Play();
         }
         else {
-            // Pause particle emission
             rain.Pause();
         }
 

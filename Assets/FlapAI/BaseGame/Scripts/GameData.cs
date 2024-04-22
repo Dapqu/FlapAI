@@ -1,5 +1,4 @@
-//used to save data
-
+// Used to save data
 [System.Serializable]
 
 public class GameData

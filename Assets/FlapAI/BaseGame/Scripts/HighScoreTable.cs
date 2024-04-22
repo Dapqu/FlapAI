@@ -8,27 +8,46 @@ public class HighScoreTable : MonoBehaviour
 
     [SerializeField] private Transform entryContainer;
     [SerializeField] private Transform entryTemplate;
-    private List<Transform> highscoreEntryTransformList;
-
     [SerializeField] private string highScoreDataKey = "highscoreTable";
 
     private HighScores highScores;
+    private List<Transform> highscoreEntryTransformList;
 
     void Awake()
     {
         instance = this;
 
+        #if UNITY_EDITOR
+        PlayerPrefs.DeleteAll();
+        #endif
+    
         entryTemplate.gameObject.SetActive(false);
 
-        // Reset the leaderboard save
-        // HighScores highScores1 = new HighScores { highScoreEntries = new List<HighScoreEntry>() };
-        // string json = JsonUtility.ToJson(highScores1);
-        // PlayerPrefs.SetString(highScoreDataKey, json);
+        // Check if PlayerPrefs data already exists
+        if (!PlayerPrefs.HasKey(highScoreDataKey))
+        {
+            // If PlayerPrefs data doesn't exist, initialize it
+            InitializeHighScores();
+        }
 
-        // Load Score Save
+        // Load high scores
+        LoadHighScores();
+    }
+
+    private void InitializeHighScores()
+    {
+        Debug.Log("Initializing new Data Key!");
+        
+        HighScores highScores1 = new HighScores { highScoreEntries = new List<HighScoreEntry>() };
+        string json = JsonUtility.ToJson(highScores1);
+        PlayerPrefs.SetString(highScoreDataKey, json);
+        PlayerPrefs.Save();
+    }
+
+    private void LoadHighScores()
+    {
         string jsonString = PlayerPrefs.GetString(highScoreDataKey);
         highScores = JsonUtility.FromJson<HighScores>(jsonString);
-
         Debug.Log(jsonString);
     }
 

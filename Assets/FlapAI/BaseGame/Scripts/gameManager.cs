@@ -3,7 +3,6 @@ using UnityEngine.SceneManagement;
 using System.IO;
 using System.Collections.Generic;
 
-
 public class GameManager : MonoBehaviour
 {
    public static GameManager instance { get; private set; }
@@ -65,8 +64,6 @@ public class GameManager : MonoBehaviour
 
       return qTableDict;
    }
-
-
 
    public void SaveScore() {
       GameData data;
@@ -134,9 +131,6 @@ public class GameManager : MonoBehaviour
       }
    }
 
-
-
-
    public void StartEastMode() {
       state = States.EnterGame;
       SceneManager.LoadScene("FlapAI/BaseGame/Scenes/mainGame");
@@ -177,8 +171,6 @@ public class GameManager : MonoBehaviour
       }
 
       SaveQTable(qTableDict);
-
-      GameUI.instance.GameOver();
    }
 
    public void ReturnToMenu() {
@@ -209,4 +201,14 @@ public class GameManager : MonoBehaviour
       qTableDict = LoadQTable();
       PrintQTable();
    }
+
+   void Update()
+    {
+        // Check for "q" key press
+        if (Input.GetKeyDown(KeyCode.F1))
+        {
+            // Load StartScene
+            SceneManager.LoadScene("FlapAI/BaseGame/Scenes/StartScene");
+        }
+    }
 }

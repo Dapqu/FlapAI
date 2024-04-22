@@ -303,3 +303,7 @@ MonoBehaviour:
   birdRigidbody: {fileID: 0}
   bubble: {fileID: 0}
   rain: {fileID: 0}
+  flapSoundClip: {fileID: 8300000, guid: fb4da0d31ddbe3f4bb5832f0bb1623aa, type: 3}
+  scoreSoundClip: {fileID: 8300000, guid: 8fcc6d0a48d3eba469e263b1a5ac0139, type: 3}
+  crashSoundClip: {fileID: 8300000, guid: 895a819eb20ea5a47ba6556b8b315f84, type: 3}
+  dieSoundClip: {fileID: 8300000, guid: 18b4308446eb41142907bcfb5afd9082, type: 3}

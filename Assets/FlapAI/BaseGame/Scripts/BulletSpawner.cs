@@ -3,9 +3,12 @@ using UnityEngine;
 public class BulletSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject bulletPrefab;
+
+    // Parameters
     private float bulletSpeed = 10f;
     private float shootingCooldown = 1f;
     private float lastShootTime;
+    [SerializeField] private AudioClip shootSoundClip;
 
     void Update() {
         // Check if the space bar is pressed and enough time has passed since the last shot
@@ -18,6 +21,7 @@ public class BulletSpawner : MonoBehaviour
     }
 
     private void SpawnBullet() {
+        SoundFXManager.Instance.PlaySoundFXClip(shootSoundClip, transform, 1f);
 
         // Instantiate a bullet prefab at the spawner's position
         GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
