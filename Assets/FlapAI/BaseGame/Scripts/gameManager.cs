@@ -159,7 +159,7 @@ public class GameManager : MonoBehaviour
 
    public void StartAiHardMode() {
       state = States.EnterGame;
-      SceneManager.LoadScene("FlapAI/BaseGame/Scenes/AiHardMode");
+      SceneManager.LoadScene("FlapAI/BaseGame/Scenes/easyqlearning");
       Score = 0;
    }
 
