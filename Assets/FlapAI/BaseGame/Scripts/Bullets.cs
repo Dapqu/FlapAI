@@ -1,7 +1,7 @@
 using UnityEngine;
 
 public class Bullets : MonoBehaviour
-{   // The left edge beyond which the pipes are destroyed
+{   // The right edge beyond which the bullets are destroyed
     private float rightEdge = 3.2f;
 
     private void Update() {

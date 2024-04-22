@@ -7,9 +7,10 @@ public class Player : MonoBehaviour
     public Vector3 position { get; private set; }
 
     private SpriteRenderer spriteRenderer;
-    private Rigidbody2D birdRigidbody;
+    public Rigidbody2D birdRigidbody;
     private Animator animator;
-    private SpriteRenderer bubble;
+    [SerializeField] private SpriteRenderer bubble;
+    private Transform sprite;
 
     private Boolean hasBubble = false;
 
@@ -26,11 +27,16 @@ public class Player : MonoBehaviour
 
     private void Awake() {
         // Get references to components in Awake
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        sprite = transform.Find("Sprite");
+        spriteRenderer = sprite.GetComponent<SpriteRenderer>();
         birdRigidbody = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        animator = sprite.GetComponent<Animator>();
         bubble = transform.Find("Bubble").GetComponent<SpriteRenderer>();
         ogScale = transform.localScale;
+    }
+
+    public void Jump() {
+        birdRigidbody.velocity = Vector2.up * strength;
     }
 
     private void Update() {
@@ -48,9 +54,8 @@ public class Player : MonoBehaviour
             if (state == GameManager.States.EnterGame)
                 GameManager.instance.EnterGame();
 
-            // Flap upwards
             if (state != GameManager.States.GameOver)
-                birdRigidbody.velocity = Vector2.up * strength;
+                Jump();
         }
 
         // Handle player movement and rotation
@@ -82,7 +87,7 @@ public class Player : MonoBehaviour
     private void AdjustBirdRotation() {
         // Adjust bird rotation based on velocity and add a lower limit
         float zRotation = Mathf.Clamp((birdRigidbody.velocity.y + 5f) * tilt, -90f, 25f);
-        transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, zRotation);
+        sprite.transform.eulerAngles = new Vector3(sprite.transform.eulerAngles.x, sprite.transform.eulerAngles.y, zRotation);
     }
 
     private void CheckDestroyCondition() {
@@ -105,7 +110,6 @@ public class Player : MonoBehaviour
             }
         } 
         else if (other.CompareTag("ground")) {
-            //Debug.Log("Hit!!!");
             animator.SetBool("Dead", true);
             GameManager.instance.GameOver();
         }
