@@ -533,7 +533,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: f9133cf8ef95ef845a759d55bd6a44bd, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: 799f1463e761bbb4db76ed75fc0143be, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 2
   m_BehaviorName: Curriculum_1
