@@ -19,6 +19,7 @@ public class BirdControl : MonoBehaviour
     private Boolean isShrunk = false;
     private Boolean isPaused = false;
     private Boolean crashed = false;
+    private Boolean dead = false;
 
     // Parameters
     private Vector3 ogScale;
@@ -126,7 +127,10 @@ public class BirdControl : MonoBehaviour
             }
         } 
         else if (other.CompareTag("ground")) {
-            SoundFXManager.Instance.PlaySoundFXClip(dieSoundClip, transform, 1f);
+            if (!dead) {
+                SoundFXManager.Instance.PlaySoundFXClip(dieSoundClip, transform, 1f);
+                dead = true;
+            }
             animator.SetBool("Dead", true);
             GameManager.instance.GameOver();
             GameUI.instance.GameOver();
