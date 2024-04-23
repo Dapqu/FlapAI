@@ -208,6 +208,7 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F1))
         {
             // Load StartScene
+            Time.timeScale = 1;
             SceneManager.LoadScene("FlapAI/BaseGame/Scenes/StartScene");
         }
     }

@@ -1,3 +1,186 @@
 {
-    "entries": []
+    "entries": [
+        {
+            "distX": 0,
+            "distYTop": 0,
+            "distYBottom": 0,
+            "action": 0,
+            "value": 8.27343463897705
+        },
+        {
+            "distX": 0,
+            "distYTop": 0,
+            "distYBottom": 0,
+            "action": 1,
+            "value": -52.332889556884769
+        },
+        {
+            "distX": 4,
+            "distYTop": -1,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 3,
+            "distYTop": 0,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 2,
+            "distYTop": 0,
+            "distYBottom": -2,
+            "action": 1,
+            "value": 1.1640000343322755
+        },
+        {
+            "distX": 1,
+            "distYTop": 1,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 1.1640000343322755
+        },
+        {
+            "distX": 1,
+            "distYTop": 2,
+            "distYBottom": -4,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 4,
+            "distYTop": -3,
+            "distYBottom": 1,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 3,
+            "distYTop": -2,
+            "distYBottom": 0,
+            "action": 0,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 4,
+            "distYTop": -1,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 1.1640000343322755
+        },
+        {
+            "distX": 4,
+            "distYTop": 0,
+            "distYBottom": -1,
+            "action": 0,
+            "value": 1.1640000343322755
+        },
+        {
+            "distX": 3,
+            "distYTop": -1,
+            "distYBottom": -1,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": 2,
+            "distYBottom": -3,
+            "action": 0,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 4,
+            "distYTop": -4,
+            "distYBottom": 3,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 3,
+            "distYTop": -3,
+            "distYBottom": 2,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 2,
+            "distYTop": -3,
+            "distYBottom": 1,
+            "action": 1,
+            "value": 1.1640000343322755
+        },
+        {
+            "distX": 2,
+            "distYTop": -2,
+            "distYBottom": 0,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": -1,
+            "distYBottom": -1,
+            "action": 0,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 0,
+            "distYTop": -2,
+            "distYBottom": 0,
+            "action": 0,
+            "value": 12.0
+        },
+        {
+            "distX": 4,
+            "distYTop": 1,
+            "distYBottom": -3,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 3,
+            "distYTop": 2,
+            "distYBottom": -4,
+            "action": 1,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 2,
+            "distYTop": 3,
+            "distYBottom": -4,
+            "action": 0,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 3,
+            "distYTop": -1,
+            "distYBottom": -1,
+            "action": 0,
+            "value": 0.9240000247955322
+        },
+        {
+            "distX": 1,
+            "distYTop": -2,
+            "distYBottom": 0,
+            "action": 0,
+            "value": 0.6000000238418579
+        },
+        {
+            "distX": 1,
+            "distYTop": -3,
+            "distYBottom": 1,
+            "action": 1,
+            "value": -60.000003814697269
+        },
+        {
+            "distX": 4,
+            "distYTop": -6,
+            "distYBottom": 4,
+            "action": 0,
+            "value": -60.000003814697269
+        }
+    ]
 }
